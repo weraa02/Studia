@@ -1,0 +1,249 @@
+weronika@wera-VirtualBox:~/Pulpit/a$ #Weronika Chmiela 268494                                             
+weronika@wera-VirtualBox:~/Pulpit/a$ #ŚP lista4                                                           
+weronika@wera-VirtualBox:~/Pulpit/a$ #ZAD2                                                                
+weronika@wera-VirtualBox:~/Pulpit/a$ ./l4z2.bash 15 21 https://repo.cs.pwr.edu.pl/info/SP/l3/             
+[master (zapis-korzeń) 81af4a3] ------------------------------------------------------------------------ r15 | admin | 2020-11-08 14:57:38 +0100 (nie) | 2 linie
+ 15 files changed, 27 insertions(+)                  
+ create mode 100644 a/a/b/aab                        
+ create mode 100644 a/aa/b/aaab                      
+ create mode 100644 a/aaa/b/aaaab                    
+ create mode 100644 a/aab/b/aaabb                    
+ create mode 100644 a/ab/b/aabb                      
+ create mode 100644 a/aba/b/aabab                    
+ create mode 100644 a/abb/b/aabbb                    
+ create mode 100644 a/b/ab                           
+ create mode 100644 a/b/b/abb                        
+ create mode 100644 a/ba/b/abab                      
+ create mode 100644 a/baa/b/abaab                    
+ create mode 100644 a/bab/b/ababb                    
+ create mode 100644 a/bb/b/abbb                      
+ create mode 100644 a/bba/b/abbab                    
+ create mode 100644 a/bbb/b/abbbb                    
+[master e614401] ------------------------------------------------------------------------ r16 | admin | 2020-11-08 15:09:08 +0100 (nie) | 2 linie
+ 1 file changed, 1 insertion(+)                      
+[master 4d68583] ------------------------------------------------------------------------ r17 | admin | 2020-11-08 15:11:08 +0100 (nie) | 2 linie
+ 1 file changed, 2 insertions(+), 1 deletion(-)      
+[master 16e8ff8] ------------------------------------------------------------------------ r18 | admin | 2020-11-08 16:36:23 +0100 (nie) | 2 linie
+ 1 file changed, 2 insertions(+)                     
+ create mode 100644 a/baa/dc                         
+Na gałęzi master          
+nic do złożenia, drzewo robocze czyste               
+[master e7e8858] ------------------------------------------------------------------------ r20 | admin | 2020-11-28 20:03:03 +0100 (sob) | 2 linie
+ 2 files changed, 5 deletions(-)                     
+ delete mode 100644 a/b/ab                           
+ delete mode 100644 a/b/b/abb                        
+[master a432d44] ------------------------------------------------------------------------ r21 | admin | 2020-11-28 20:34:42 +0100 (sob) | 6 linii
+ 1 file changed, 3 deletions(-)                      
+ delete mode 100644 a/bb/b/abbb                      
+weronika@wera-VirtualBox:~/Pulpit/a$ git log --stat                                                       
+fatal: to nie jest repozytorium gita (ani żaden z katalogów nadrzędnych): .git                            
+weronika@wera-VirtualBox:~/Pulpit/a$ cd l3           
+weronika@wera-VirtualBox:~/Pulpit/a/l3$ git log --stat                                                    
+commit a432d44ca63c2a99f1495dd0b800ae56630d0c9a (HEAD -> master)                                          
+Author: Weronika <268494@student.pwr.edu.pl>         
+Date:   Fri Dec 6 13:57:12 2024 +0100                
+
+    ------------------------------------------------------------------------                              
+    r21 | admin | 2020-11-28 20:34:42 +0100 (sob) | 6 linii                                               
+                          
+    usunięcie katalogu    
+                          
+    Usunięcie kolejnego podkatalogu:                 
+    a/bb                  
+                          
+    ------------------------------------------------------------------------                              
+
+ a/bb/b/abbb | 3 ---      
+ 1 file changed, 3 deletions(-)                      
+
+commit e7e8858021927eb0291aa0d3c35d50d567c0ddfa      
+Author: Weronika <268494@student.pwr.edu.pl>         
+Date:   Fri Dec 6 13:57:11 2024 +0100                
+
+    ------------------------------------------------------------------------                              
+    r20 | admin | 2020-11-28 20:03:03 +0100 (sob) | 2 linie                                               
+                          
+    usunięcie katalogu    
+                          
+    ------------------------------------------------------------------------                              
+
+ a/b/ab    | 2 --         
+ a/b/b/abb | 3 ---        
+ 2 files changed, 5 deletions(-)                     
+
+commit 16e8ff88f02e8fd562d592b1362ae171e69b0cc6      
+Author: Weronika <268494@student.pwr.edu.pl>         
+Date:   Fri Dec 6 13:57:11 2024 +0100                
+
+    ------------------------------------------------------------------------                              
+    r18 | admin | 2020-11-08 16:36:23 +0100 (nie) | 2 linie                                               
+                          
+    nowa rewizja          
+                          
+    ------------------------------------------------------------------------                              
+
+ a/baa/dc | 2 ++          
+ 1 file changed, 2 insertions(+)                     
+
+commit 4d68583a973894c7a3bbd281507f2f094f5fd43c      
+Author: Weronika <268494@student.pwr.edu.pl>         
+Date:   Fri Dec 6 13:57:10 2024 +0100                
+
+    ------------------------------------------------------------------------                              
+    r17 | admin | 2020-11-08 15:11:08 +0100 (nie) | 2 linie                                               
+                          
+    nowa rewizja          
+                          
+    ------------------------------------------------------------------------                              
+
+ a/ba/b/abab | 3 ++-      
+ 1 file changed, 2 insertions(+), 1 deletion(-)      
+
+commit e6144014220b2550169e1ebafc6a67fa013c08f4      
+Author: Weronika <268494@student.pwr.edu.pl>         
+Date:   Fri Dec 6 13:57:10 2024 +0100                
+
+    ------------------------------------------------------------------------                              
+    r16 | admin | 2020-11-08 15:09:08 +0100 (nie) | 2 linie                                               
+                          
+    nowa rewizja          
+                          
+    ------------------------------------------------------------------------                              
+
+ a/b/ab | 1 +             
+ 1 file changed, 1 insertion(+)                      
+
+commit 81af4a31ee95140b82daab0059f2ebf320c1d970      
+Author: Weronika <268494@student.pwr.edu.pl>         
+Date:   Fri Dec 6 13:57:10 2024 +0100                
+
+    ------------------------------------------------------------------------                              
+commit e6144014220b2550169e1ebafc6a67fa013c08f4      
+Author: Weronika <268494@student.pwr.edu.pl>         
+Date:   Fri Dec 6 13:57:10 2024 +0100                
+
+    ------------------------------------------------------------------------                              
+    r16 | admin | 2020-11-08 15:09:08 +0100 (nie) | 2 linie                                               
+                          
+    nowa rewizja          
+                          
+    ------------------------------------------------------------------------                              
+
+ a/b/ab | 1 +             
+ 1 file changed, 1 insertion(+)                      
+
+commit 81af4a31ee95140b82daab0059f2ebf320c1d970      
+Author: Weronika <268494@student.pwr.edu.pl>         
+Date:   Fri Dec 6 13:57:10 2024 +0100                
+
+    ------------------------------------------------------------------------                              
+    r15 | admin | 2020-11-08 14:57:38 +0100 (nie) | 2 linie                                               
+                          
+    Dane do listy 3.      
+                          
+    ------------------------------------------------------------------------                              
+
+ a/a/b/aab     | 3 +++    
+ a/aa/b/aaab   | 3 +++    
+ a/aaa/b/aaaab | 1 +      
+ a/aab/b/aaabb | 1 +      
+ a/ab/b/aabb   | 3 +++    
+ a/aba/b/aabab | 1 +      
+ a/abb/b/aabbb | 1 +      
+ a/b/ab        | 1 +      
+ a/b/b/abb     | 3 +++    
+ a/ba/b/abab   | 3 +++    
+ a/baa/b/abaab | 1 +      
+ a/bab/b/ababb | 1 +      
+ a/bb/b/abbb   | 3 +++    
+ a/bba/b/abbab | 1 +      
+ a/bbb/b/abbbb | 1 +      
+ 15 files changed, 27 insertions(+)                  
+weronika@wera-VirtualBox:~/Pulpit/a/l3$ git log --stat | grep -v '^commit ' | grep -v '^Author: ' | grep -v
+weronika@wera-VirtualBox:~/Pulpit/a/l3$ git log --stat | grep -v '^commit ' | grep -v '^Author: ' | grep -v '^Date: '                        
+
+    ------------------------------------------------------------------------                                     
+    r21 | admin | 2020-11-28 20:34:42 +0100 (sob) | 6 linii                                                      
+                            
+    usunięcie katalogu      
+                            
+    Usunięcie kolejnego podkatalogu:                    
+    a/bb                    
+                            
+    ------------------------------------------------------------------------                                     
+
+ a/bb/b/abbb | 3 ---        
+ 1 file changed, 3 deletions(-)                         
+
+
+    ------------------------------------------------------------------------                                     
+    r20 | admin | 2020-11-28 20:03:03 +0100 (sob) | 2 linie                                                      
+                            
+    usunięcie katalogu      
+                            
+    ------------------------------------------------------------------------                                     
+
+ a/b/ab    | 2 --           
+ a/b/b/abb | 3 ---          
+ 2 files changed, 5 deletions(-)                        
+
+
+    ------------------------------------------------------------------------                                     
+    r18 | admin | 2020-11-08 16:36:23 +0100 (nie) | 2 linie                                                      
+                            
+    nowa rewizja            
+                            
+    ------------------------------------------------------------------------                                     
+
+ a/baa/dc | 2 ++            
+ 1 file changed, 2 insertions(+)                        
+
+
+    ------------------------------------------------------------------------                                     
+    r17 | admin | 2020-11-08 15:11:08 +0100 (nie) | 2 linie                                                      
+                            
+    nowa rewizja            
+                            
+    ------------------------------------------------------------------------                                     
+
+ a/ba/b/abab | 3 ++-        
+ 1 file changed, 2 insertions(+), 1 deletion(-)         
+
+
+    ------------------------------------------------------------------------                                     
+    r16 | admin | 2020-11-08 15:09:08 +0100 (nie) | 2 linie                                                      
+                            
+    nowa rewizja            
+                            
+    ------------------------------------------------------------------------                                     
+
+ a/b/ab | 1 +               
+ 1 file changed, 1 insertion(+)                         
+
+
+    ------------------------------------------------------------------------                                     
+    r15 | admin | 2020-11-08 14:57:38 +0100 (nie) | 2 linie                                                      
+                            
+    Dane do listy 3.        
+                            
+    ------------------------------------------------------------------------                                     
+
+ a/a/b/aab     | 3 +++      
+ a/aa/b/aaab   | 3 +++      
+ a/aaa/b/aaaab | 1 +        
+ a/aab/b/aaabb | 1 +        
+ a/ab/b/aabb   | 3 +++      
+ a/aba/b/aabab | 1 +        
+ a/abb/b/aabbb | 1 +        
+ a/b/ab        | 1 +        
+ a/b/b/abb     | 3 +++      
+ a/ba/b/abab   | 3 +++      
+ a/baa/b/abaab | 1 +        
+ a/bab/b/ababb | 1 +        
+ a/bb/b/abbb   | 3 +++      
+ a/bba/b/abbab | 1 +        
+ a/bbb/b/abbbb | 1 +        
+ 15 files changed, 27 insertions(+)                     
+weronika@wera-VirtualBox:~/Pulpit/a/l3$                                                                          
+weronika@wera-VirtualBox:~/Pulpit/a/l3$ tmux capture-pane -p -S'-' -E'-' -J >> l4z2                              
+

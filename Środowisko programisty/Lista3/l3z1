@@ -1,0 +1,1240 @@
+weronika@wera-VirtualBox:~/Pulpit/Lista3$ #Weronika Chmiela 268494
+weronika@wera-VirtualBox:~/Pulpit/Lista3$ #ŚP lista3
+weronika@wera-VirtualBox:~/Pulpit/Lista3$ #ZAD1
+weronika@wera-VirtualBox:~/Pulpit/Lista3$ svn checkout https://repo.cs.pwr.edu.pl/p-1/
+A    p-1/app_1
+A    p-1/app_1/branches
+A    p-1/app_1/branches/272334
+A    p-1/app_1/branches/272350
+A    p-1/app_1/branches/999
+A    p-1/app_1/tags
+A    p-1/app_1/tags/v_268952
+A    p-1/app_1/branches/999/s0_podprogram.c
+A    p-1/app_1/tags/v_268952/s272347_podprogram.c
+A    p-1/app_1/tags/v_268952/makefile
+A    p-1/app_1/branches/272350/s272336_podprogram.c
+A    p-1/app_1/branches/272350/s272348_podprogram.c
+A    p-1/app_1/branches/272334/README
+A    p-1/app_1/branches/272334/main.c
+A    p-1/app_1/branches/999/README
+A    p-1/app_1/branches/272334/makefile
+A    p-1/app_1/branches/272334/program.h
+A    p-1/app_1/branches/999/makefile
+A    p-1/app_1/branches/999/program_usage.c
+A    p-1/app_1/tags/v_268952/program.h
+A    p-1/app_1/branches/272334/s272334_podprogram.c
+A    p-1/app_1/branches/272334/s268486_podprogram.c
+A    p-1/app_1/branches/272334/s269560_podprogram.c
+A    p-1/app_1/branches/272334/s272345_podprogram.c
+A    p-1/app_1/tags/v_268952/main.c
+A    p-1/app_1/tags/v_268952/s268488_podprogram.c
+A    p-1/app_1/tags/v_268952/s268495_podprogram.c
+A    p-1/app_1/tags/v_272347
+A    p-1/app_1/tags/v_268952/s268491_podprogram.c
+A    p-1/app_1/tags/v_268952/s272337_podprogram.c
+A    p-1/app_1/tags/v_268952/s269560_podprogram.c
+A    p-1/app_1/tags/v_268952/s272348_podprogram.c
+A    p-1/app_1/branches/272334/s268497_podprogram.c
+A    p-1/app_1/branches/272334/s272333_podprogram.c
+A    p-1/app_1/branches/272334/s272336_podprogram.c
+A    p-1/app_1/branches/272334/s272348_podprogram.c
+A    p-1/app_1/tags/v_268952/s268896_podprogram.c
+A    p-1/app_1/tags/v_268952/s272343_podprogram.c
+A    p-1/app_1/tags/v_268952/s268497_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk
+A    p-1/app_1/tags/v_268952/s268486_podprogram.c
+A    p-1/app_1/tags/v_268952/s272336_podprogram.c
+A    p-1/app_1/branches/272334/program_usage.c
+A    p-1/app_1/tags/v_272347/trunk/trunk
+A    p-1/app_1/branches/272334/s0_podprogram.c
+A    p-1/app_1/tags/v_272347/s272347_podprogram.c
+A    p-1/app_1/tags/v_268952/s999_podprogram.c
+A    p-1/app_1/tags/v_268952/program_usage.c
+A    p-1/app_1/tags/v_272347/main.c
+A    p-1/app_1/branches/272334/s999_podprogram.c
+A    p-1/app_1/branches/272350/main.c
+A    p-1/app_1/branches/272350/makefile
+A    p-1/app_1/branches/272350/program.h
+A    p-1/app_1/branches/272350/s272350_podprogram.c
+A    p-1/app_1/branches/272350/README
+A    p-1/app_1/branches/272350/program_usage.c
+A    p-1/app_1/branches/272350/s0_podprogram.c
+A    p-1/app_1/branches/272350/s268497_podprogram.c
+A    p-1/app_1/branches/272350/s269560_podprogram.c
+A    p-1/app_1/branches/272350/s272333_podprogram.c
+A    p-1/app_1/tags/v_272347/makefile
+A    p-1/app_1/tags/v_272347/trunk/makefile
+A    p-1/app_1/tags/v_272347/trunk/s268495_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/s272343_podprogram.c
+A    p-1/app_1/tags/v_272347/README
+A    p-1/app_1/tags/v_272347/trunk/main.c
+A    p-1/app_1/tags/v_272347/trunk/s268491_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/s272337_podprogram.c
+A    p-1/app_1/tags/v_272347/s268488_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/program.h
+A    p-1/app_1/tags/v_272347/trunk/s268509_podprogram.c
+A    p-1/app_1/branches/272350/s272345_podprogram.c
+A    p-1/app_1/branches/272350/s999_podprogram.c
+A    p-1/app_1/branches/999/main.c
+A    p-1/app_1/branches/999/program.h
+A    p-1/app_1/branches/999/s999_podprogram.c
+A    p-1/app_1/tags/v_268952/README
+A    p-1/app_1/tags/v_268952/s268952_podprogram.c
+A    p-1/app_1/tags/v_268952/s268509_podprogram.c
+A    p-1/app_1/tags/v_268952/s272345_podprogram.c
+A    p-1/app_1/tags/v_268952/s272333_podprogram.c
+A    p-1/app_1/tags/v_268952/s0_podprogram.c
+A    p-1/app_1/tags/v_272347/program.h
+A    p-1/app_1/tags/v_272347/trunk/README
+A    p-1/app_1/tags/v_272347/trunk/s268488_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/s268896_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/trunk/s268486_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/trunk/s268497_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/trunk/program_usage.c
+A    p-1/app_1/tags/v_272347/trunk/s268486_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/s272336_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/s999_podprogram.c
+A    p-1/app_1/tags/v_272347/s268495_podprogram.c
+A    p-1/app_1/tags/v_272347/s268486_podprogram.c
+A    p-1/app_1/tags/v_268488
+A    p-1/app_1/tags/v_268488/trunk
+A    p-1/app_1/tags/v_272347/trunk/trunk/s272345_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/trunk/s269560_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/trunk/s272348_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/s272345_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/s272333_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/s0_podprogram.c
+A    p-1/app_1/tags/v_272347/s268509_podprogram.c
+A    p-1/app_1/tags/v_272347/s272345_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/trunk/program.h
+A    p-1/app_1/tags/v_272347/trunk/trunk/makefile
+A    p-1/app_1/tags/v_272347/trunk/trunk/s272336_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/trunk/main.c
+A    p-1/app_1/tags/v_272347/trunk/trunk/README
+A    p-1/app_1/tags/v_272347/trunk/trunk/s272333_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/trunk/s0_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/s269560_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/s272348_podprogram.c
+A    p-1/app_1/tags/v_272347/s268491_podprogram.c
+A    p-1/app_1/tags/v_272347/s272337_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/trunk
+A    p-1/app_1/tags/v_272347/s272336_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/trunk/s999_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/s268497_podprogram.c
+A    p-1/app_1/tags/v_272347/trunk/program_usage.c
+A    p-1/app_1/tags/v_272347/s268896_podprogram.c
+A    p-1/app_1/tags/v_272347/s272343_podprogram.c
+A    p-1/app_1/tags/v_272347/s268497_podprogram.c
+A    p-1/app_1/tags/v_272347/program_usage.c
+A    p-1/app_1/tags/v_268488/main.c
+A    p-1/app_1/tags/v_268488/trunk/README
+A    p-1/app_1/tags/v_272347/s999_podprogram.c
+A    p-1/app_1/tags/v_268488/program.h
+A    p-1/app_1/tags/v_268488/trunk/makefile
+A    p-1/app_1/tags/v_268488/trunk/s268495_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/s272343_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/trunk/s268486_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/trunk/s268497_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/trunk/program_usage.c
+A    p-1/app_1/tags/v_272347/s272333_podprogram.c
+A    p-1/app_1/tags/v_272347/s0_podprogram.c
+A    p-1/app_1/tags/v_268488/makefile
+A    p-1/app_1/tags/v_268488/trunk/main.c
+A    p-1/app_1/tags/v_268488/trunk/s268491_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/s272337_podprogram.c
+A    p-1/app_1/tags/v_272347/s269560_podprogram.c
+A    p-1/app_1/tags/v_272347/s272348_podprogram.c
+A    p-1/app_1/tags/v_268488/README
+A    p-1/app_1/tags/v_268488/s268488_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/program.h
+A    p-1/app_1/tags/v_268488/trunk/s268509_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/trunk/main.c
+A    p-1/app_1/tags/v_268488/trunk/trunk/README
+A    p-1/app_1/tags/v_268488/trunk/trunk/s272333_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/trunk/s0_podprogram.c
+A    p-1/app_1/tags/v_268896
+A    p-1/app_1/tags/v_268488/trunk/s268486_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/s272336_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/trunk/s272345_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/trunk/s269560_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/trunk/s272348_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/s272345_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/s272333_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/s268488_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/s268896_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/trunk/program.h
+A    p-1/app_1/tags/v_268488/trunk/trunk/makefile
+A    p-1/app_1/tags/v_268488/trunk/trunk/s272336_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/trunk/s999_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/s268497_podprogram.c
+A    p-1/app_1/tags/v_268896/trunk
+A    p-1/app_1/tags/v_268488/trunk/s999_podprogram.c
+A    p-1/app_1/tags/v_268488/s268495_podprogram.c
+A    p-1/app_1/tags/v_268488/s268486_podprogram.c
+A    p-1/app_1/tags/v_268488/s272336_podprogram.c
+A    p-1/app_1/tags/v_268488/s999_podprogram.c
+A    p-1/app_1/tags/v_268896/makefile
+A    p-1/app_1/tags/v_268488/trunk/s0_podprogram.c
+A    p-1/app_1/tags/v_268488/s268509_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/s269560_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/s272348_podprogram.c
+A    p-1/app_1/tags/v_268488/s272345_podprogram.c
+A    p-1/app_1/tags/v_268488/s272333_podprogram.c
+A    p-1/app_1/tags/v_268488/s0_podprogram.c
+A    p-1/app_1/tags/v_268491
+A    p-1/app_1/tags/v_268896/main.c
+A    p-1/app_1/tags/v_268896/s268509_podprogram.c
+A    p-1/app_1/tags/v_268896/trunk/main.c
+A    p-1/app_1/tags/v_268896/trunk/README
+A    p-1/app_1/tags/v_268896/trunk/s272333_podprogram.c
+A    p-1/app_1/tags/v_268896/trunk/s0_podprogram.c
+A    p-1/app_1/tags/v_268896/s269560_podprogram.c
+A    p-1/app_1/tags/v_268488/trunk/program_usage.c
+A    p-1/app_1/tags/v_268488/s268896_podprogram.c
+A    p-1/app_1/tags/v_268488/s272343_podprogram.c
+A    p-1/app_1/tags/v_268488/s268497_podprogram.c
+A    p-1/app_1/tags/v_268488/program_usage.c
+A    p-1/app_1/tags/v_268896/README
+A    p-1/app_1/tags/v_268896/s268896_podprogram.c
+A    p-1/app_1/tags/v_268896/s272343_podprogram.c
+A    p-1/app_1/tags/v_268896/trunk/s268486_podprogram.c
+A    p-1/app_1/tags/v_268896/trunk/s268497_podprogram.c
+A    p-1/app_1/tags/v_268896/trunk/program_usage.c
+A    p-1/app_1/tags/v_268488/s268491_podprogram.c
+A    p-1/app_1/tags/v_268488/s272337_podprogram.c
+A    p-1/app_1/tags/v_268488/s269560_podprogram.c
+A    p-1/app_1/tags/v_268488/s272348_podprogram.c
+A    p-1/app_1/tags/v_268896/s268491_podprogram.c
+A    p-1/app_1/tags/v_268896/program.h
+A    p-1/app_1/tags/v_268896/s272337_podprogram.c
+A    p-1/app_1/tags/v_268896/trunk/s272345_podprogram.c
+A    p-1/app_1/tags/v_268896/trunk/s269560_podprogram.c
+A    p-1/app_1/tags/v_268896/trunk/s272348_podprogram.c
+A    p-1/app_1/tags/v_268896/s272345_podprogram.c
+A    p-1/app_1/tags/v_268896/s272333_podprogram.c
+A    p-1/app_1/tags/v_268896/s0_podprogram.c
+A    p-1/app_1/tags/v_268491/trunk
+A    p-1/app_1/tags/v_268509
+A    p-1/app_1/tags/v_268896/s268495_podprogram.c
+A    p-1/app_1/tags/v_268896/trunk/program.h
+A    p-1/app_1/tags/v_268896/trunk/makefile
+A    p-1/app_1/tags/v_268896/trunk/s272336_podprogram.c
+A    p-1/app_1/tags/v_268896/trunk/s999_podprogram.c
+A    p-1/app_1/tags/v_268896/s268497_podprogram.c
+A    p-1/app_1/tags/v_268896/program_usage.c
+A    p-1/app_1/tags/v_268896/s272348_podprogram.c
+A    p-1/app_1/tags/v_268491/s268491_podprogram.c
+A    p-1/app_1/tags/v_268896/s268486_podprogram.c
+A    p-1/app_1/tags/v_268896/s272336_podprogram.c
+A    p-1/app_1/tags/v_268896/s999_podprogram.c
+A    p-1/app_1/tags/v_268509/trunk
+A    p-1/app_1/tags/v_268491/main.c
+A    p-1/app_1/tags/v_268491/README
+A    p-1/app_1/tags/v_268491/s268509_podprogram.c
+A    p-1/app_1/tags/v_268491/s272343_podprogram.c
+A    p-1/app_1/tags/v_268491/trunk/s268486_podprogram.c
+A    p-1/app_1/tags/v_268491/trunk/s268497_podprogram.c
+A    p-1/app_1/tags/v_268491/trunk/program_usage.c
+A    p-1/app_1/tags/v_268491/s268486_podprogram.c
+A    p-1/app_1/tags/v_268491/trunk/main.c
+A    p-1/app_1/tags/v_268491/trunk/README
+A    p-1/app_1/tags/v_268491/trunk/s272333_podprogram.c
+A    p-1/app_1/tags/v_268491/trunk/s0_podprogram.c
+A    p-1/app_1/tags/v_268491/program.h
+A    p-1/app_1/tags/v_268491/s272337_podprogram.c
+A    p-1/app_1/tags/v_268491/trunk/s272345_podprogram.c
+A    p-1/app_1/tags/v_268491/trunk/s269560_podprogram.c
+A    p-1/app_1/tags/v_268491/trunk/s272348_podprogram.c
+A    p-1/app_1/tags/v_268491/s272345_podprogram.c
+A    p-1/app_1/tags/v_268491/s272333_podprogram.c
+A    p-1/app_1/tags/v_268491/s0_podprogram.c
+A    p-1/app_1/tags/v_268509/README
+A    p-1/app_1/tags/v_268509/s272337_podprogram.c
+A    p-1/app_1/tags/v_268509/trunk/s272345_podprogram.c
+A    p-1/app_1/tags/v_268491/makefile
+A    p-1/app_1/tags/v_268491/s268495_podprogram.c
+A    p-1/app_1/tags/v_268491/trunk/program.h
+A    p-1/app_1/tags/v_268491/trunk/makefile
+A    p-1/app_1/tags/v_268491/trunk/s272336_podprogram.c
+A    p-1/app_1/tags/v_268491/trunk/s999_podprogram.c
+A    p-1/app_1/tags/v_268491/s268497_podprogram.c
+A    p-1/app_1/tags/v_268491/program_usage.c
+A    p-1/app_1/tags/v_268509/makefile
+A    p-1/app_1/tags/v_268509/s268495_podprogram.c
+A    p-1/app_1/tags/v_268509/trunk/program.h
+A    p-1/app_1/tags/v_268495
+A    p-1/app_1/tags/v_268495/trunk
+A    p-1/app_1/tags/v_268491/s269560_podprogram.c
+A    p-1/app_1/tags/v_268491/s272348_podprogram.c
+A    p-1/app_1/tags/v_268509/s268509_podprogram.c
+A    p-1/app_1/tags/v_268509/program.h
+A    p-1/app_1/tags/v_268509/trunk/main.c
+A    p-1/app_1/tags/v_268509/trunk/README
+A    p-1/app_1/tags/v_268509/trunk/s272333_podprogram.c
+A    p-1/app_1/tags/v_268509/trunk/s0_podprogram.c
+A    p-1/app_1/tags/v_268491/s272336_podprogram.c
+A    p-1/app_1/tags/v_268491/s999_podprogram.c
+A    p-1/app_1/tags/v_268509/main.c
+A    p-1/app_1/tags/v_268509/s272343_podprogram.c
+A    p-1/app_1/tags/v_268509/trunk/s268486_podprogram.c
+A    p-1/app_1/tags/v_268509/trunk/s268497_podprogram.c
+A    p-1/app_1/tags/v_268509/trunk/program_usage.c
+A    p-1/app_1/tags/v_268509/s268486_podprogram.c
+A    p-1/app_1/tags/v_268509/trunk/s269560_podprogram.c
+A    p-1/app_1/tags/v_268509/trunk/s272348_podprogram.c
+A    p-1/app_1/tags/v_268509/s272345_podprogram.c
+A    p-1/app_1/tags/272337-v1.0
+A    p-1/app_1/tags/v_268509/s269560_podprogram.c
+A    p-1/app_1/tags/v_268509/trunk/makefile
+A    p-1/app_1/tags/v_268509/trunk/s272336_podprogram.c
+A    p-1/app_1/tags/v_268509/trunk/s999_podprogram.c
+A    p-1/app_1/tags/v_268509/s272348_podprogram.c
+A    p-1/app_1/tags/v_268495/makefile
+A    p-1/app_1/tags/v_268495/program.h
+A    p-1/app_1/tags/v_268495/trunk/program.h
+A    p-1/app_1/tags/v_268495/trunk/makefile
+A    p-1/app_1/tags/v_268495/trunk/s272336_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/trunk
+A    p-1/app_1/tags/v_268509/s272336_podprogram.c
+A    p-1/app_1/tags/v_268509/s999_podprogram.c
+A    p-1/app_1/tags/v_268495/main.c
+A    p-1/app_1/tags/v_268495/trunk/main.c
+A    p-1/app_1/tags/v_268509/s272333_podprogram.c
+A    p-1/app_1/tags/v_268509/s0_podprogram.c
+A    p-1/app_1/tags/v_268495/README
+A    p-1/app_1/tags/v_268495/s272343_podprogram.c
+A    p-1/app_1/tags/v_268495/trunk/s268486_podprogram.c
+A    p-1/app_1/tags/v_268495/trunk/s268497_podprogram.c
+A    p-1/app_1/tags/v_268495/trunk/program_usage.c
+A    p-1/app_1/tags/v_268509/s268497_podprogram.c
+A    p-1/app_1/tags/v_268509/program_usage.c
+A    p-1/app_1/tags/v_268495/s268495_podprogram.c
+A    p-1/app_1/tags/v_268495/s272337_podprogram.c
+A    p-1/app_1/tags/v_268495/trunk/s272345_podprogram.c
+A    p-1/app_1/tags/v_268495/trunk/s269560_podprogram.c
+A    p-1/app_1/tags/v_268495/trunk/s272348_podprogram.c
+A    p-1/app_1/tags/v_268495/s272345_podprogram.c
+A    p-1/app_1/tags/v_268495/s272333_podprogram.c
+A    p-1/app_1/tags/v_268495/s0_podprogram.c
+A    p-1/app_1/tags/v_272343
+A    p-1/app_1/tags/v_268495/trunk/s999_podprogram.c
+A    p-1/app_1/tags/v_268495/s268497_podprogram.c
+A    p-1/app_1/tags/v_268495/program_usage.c
+A    p-1/app_1/tags/272337-v1.0/s272337_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/makefile
+A    p-1/app_1/tags/272337-v1.0/trunk/s268486_podprogram.c
+A    p-1/app_1/tags/v_268495/trunk/README
+A    p-1/app_1/tags/v_268495/trunk/s272333_podprogram.c
+A    p-1/app_1/tags/v_268495/trunk/s0_podprogram.c
+A    p-1/app_1/tags/v_268495/s269560_podprogram.c
+A    p-1/app_1/tags/v_268495/s272348_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/program.h
+A    p-1/app_1/tags/272337-v1.0/README
+A    p-1/app_1/tags/272337-v1.0/trunk/s272345_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/trunk/s269560_podprogram.c
+A    p-1/app_1/tags/v_268495/s268486_podprogram.c
+A    p-1/app_1/tags/v_268495/s272336_podprogram.c
+A    p-1/app_1/tags/v_268495/s999_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/s272343_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/trunk/program.h
+A    p-1/app_1/tags/272337-v1.0/trunk/makefile
+A    p-1/app_1/tags/v_272343/trunk
+A    p-1/app_1/tags/272337-v1.0/trunk/s268497_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/trunk/program_usage.c
+A    p-1/app_1/tags/272337-v1.0/s268486_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/s272336_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/s999_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/main.c
+A    p-1/app_1/tags/272337-v1.0/trunk/main.c
+A    p-1/app_1/tags/272337-v1.0/trunk/README
+A    p-1/app_1/tags/v_272345
+A    p-1/app_1/tags/272337-v1.0/trunk/s272348_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/s272345_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/s272333_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/s0_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/trunk/s272336_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/trunk/s272333_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/trunk/s0_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/s269560_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/s272348_podprogram.c
+A    p-1/app_1/tags/v_272343/s272343_podprogram.c
+A    p-1/app_1/tags/v_272343/main.c
+A    p-1/app_1/tags/v_272343/trunk/program.h
+A    p-1/app_1/tags/v_272343/trunk/makefile
+A    p-1/app_1/tags/v_272343/trunk/s272336_podprogram.c
+A    p-1/app_1/tags/v_272343/makefile
+A    p-1/app_1/tags/v_272343/trunk/s272345_podprogram.c
+A    p-1/app_1/tags/v_272343/trunk/s269560_podprogram.c
+A    p-1/app_1/tags/v_272343/trunk/s272348_podprogram.c
+A    p-1/app_1/tags/v_272343/program.h
+A    p-1/app_1/tags/268486
+A    p-1/app_1/tags/v_272343/trunk/s999_podprogram.c
+A    p-1/app_1/tags/v_272343/s268497_podprogram.c
+A    p-1/app_1/tags/v_272343/program_usage.c
+A    p-1/app_1/tags/v_272345/program.h
+A    p-1/app_1/tags/v_272343/s272345_podprogram.c
+A    p-1/app_1/tags/v_272343/s272333_podprogram.c
+A    p-1/app_1/tags/v_272343/s0_podprogram.c
+A    p-1/app_1/tags/v_272345/s272345_podprogram.c
+A    p-1/app_1/tags/v_272343/trunk/s268486_podprogram.c
+A    p-1/app_1/tags/v_272343/trunk/s268497_podprogram.c
+A    p-1/app_1/tags/v_272343/trunk/program_usage.c
+A    p-1/app_1/tags/v_268497
+A    p-1/app_1/tags/v_272345/s269560_podprogram.c
+A    p-1/app_1/tags/v_272345/makefile
+A    p-1/app_1/tags/v_272345/s272336_podprogram.c
+A    p-1/app_1/tags/v_272345/s999_podprogram.c
+A    p-1/app_1/tags/v_272343/s268486_podprogram.c
+A    p-1/app_1/tags/v_272343/s272336_podprogram.c
+A    p-1/app_1/tags/v_272345/s272348_podprogram.c
+A    p-1/app_1/tags/268486/s268486_podprogram.c
+A    p-1/app_1/tags/268486/program.h
+A    p-1/app_1/tags/268486/s272333_podprogram.c
+A    p-1/app_1/tags/268486/makefile
+A    p-1/app_1/tags/268486/s268497_podprogram.c
+A    p-1/app_1/tags/268486/program_usage.c
+A    p-1/app_1/tags/v_272343/s999_podprogram.c
+A    p-1/app_1/tags/v_272345/s268486_podprogram.c
+A    p-1/app_1/tags/v_272345/s268497_podprogram.c
+A    p-1/app_1/tags/v_272345/program_usage.c
+A    p-1/app_1/tags/268486/README
+A    p-1/app_1/tags/268486/s269560_podprogram.c
+A    p-1/app_1/tags/v_269560
+A    p-1/app_1/tags/268486/s0_podprogram.c
+A    p-1/app_1/tags/v_268497/s999_podprogram.c
+A    p-1/app_1/tags/v_272348
+A    p-1/app_1/tags/v_272348/trunk
+A    p-1/app_1/tags/v_268497/s0_podprogram.c
+A    p-1/app_1/tags/268486/s272336_podprogram.c
+A    p-1/app_1/tags/268486/s999_podprogram.c
+A    p-1/app_1/tags/v_268497/makefile
+A    p-1/app_1/tags/v_268497/program.h
+A    p-1/app_1/tags/v_268497/s272336_podprogram.c
+A    p-1/app_1/tags/v_269560/makefile
+A    p-1/app_1/tags/v_269560/s268497_podprogram.c
+A    p-1/app_1/tags/v_269560/program_usage.c
+A    p-1/app_1/tags/v_272348/trunk/main.c
+A    p-1/app_1/tags/v_268497/README
+A    p-1/app_1/tags/v_268497/s268497_podprogram.c
+A    p-1/app_1/tags/v_269560/README
+A    p-1/app_1/tags/v_268497/s272348_podprogram.c
+A    p-1/app_1/tags/v_269560/program.h
+A    p-1/app_1/tags/v_269560/s272333_podprogram.c
+A    p-1/app_1/tags/v_269560/s0_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/trunk/s999_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/s268497_podprogram.c
+A    p-1/app_1/tags/272337-v1.0/program_usage.c
+A    p-1/app_1/tags/v_272343/README
+A    p-1/app_1/tags/v_272343/trunk/main.c
+A    p-1/app_1/tags/v_272343/trunk/README
+A    p-1/app_1/tags/v_272343/trunk/s272333_podprogram.c
+A    p-1/app_1/tags/v_272343/trunk/s0_podprogram.c
+A    p-1/app_1/tags/v_272343/s269560_podprogram.c
+A    p-1/app_1/tags/v_272343/s272348_podprogram.c
+A    p-1/app_1/tags/v_272345/main.c
+A    p-1/app_1/tags/v_272345/README
+A    p-1/app_1/tags/v_272345/s272333_podprogram.c
+A    p-1/app_1/tags/v_272345/s0_podprogram.c
+A    p-1/app_1/tags/268486/main.c
+A    p-1/app_1/tags/268486/s272345_podprogram.c
+A    p-1/app_1/tags/268486/s272348_podprogram.c
+A    p-1/app_1/tags/v_268497/program_usage.c
+A    p-1/app_1/tags/v_268497/main.c
+A    p-1/app_1/tags/v_268497/s272333_podprogram.c
+A    p-1/app_1/tags/v_269560/main.c
+A    p-1/app_1/tags/v_269560/s272345_podprogram.c
+A    p-1/app_1/tags/v_269560/s272348_podprogram.c
+A    p-1/app_1/tags/v_272348/trunk/README
+A    p-1/app_1/tags/v_272348/trunk/s272348_podprogram.c
+A    p-1/app_1/tags/v_272336
+A    p-1/app_1/tags/v_272333
+A    p-1/app_1/tags/v_999
+A    p-1/app_1/trunk
+A    p-1/app_1/tags/v_272348/trunk/makefile
+A    p-1/app_1/tags/v_272348/trunk/s272333_podprogram.c
+A    p-1/app_1/tags/v_272348/README
+A    p-1/app_1/tags/v_272348/s272348_podprogram.c
+A    p-1/app_1/tags/v_269560/s269560_podprogram.c
+A    p-1/app_1/tags/v_269560/s272336_podprogram.c
+A    p-1/app_1/tags/v_269560/s999_podprogram.c
+A    p-1/app_1/tags/v_272348/trunk/program.h
+A    p-1/app_1/tags/v_272348/trunk/program_usage.c
+A    p-1/app_1/tags/v_272348/trunk/s0_podprogram.c
+A    p-1/app_1/trunk/trunk
+A    p-1/app_1/tags/v_272348/makefile
+A    p-1/app_1/tags/v_272348/s0_podprogram.c
+A    p-1/app_1/tags/v_272348/s272333_podprogram.c
+A    p-1/app_1/tags/v_272336/README
+A    p-1/app_1/tags/v_272336/s272336_podprogram.c
+A    p-1/app_1/tags/v_272336/s999_podprogram.c
+A    p-1/app_1/tags/v_272333/program.h
+A    p-1/app_1/tags/v_272333/s999_podprogram.c
+A    p-1/app_1/tags/v_999/program.h
+A    p-1/app_1/trunk/program.h
+A    p-1/app_1/trunk/makefile
+A    p-1/app_1/trunk/trunk/main.c
+A    p-1/app_1/trunk/trunk/s268491_podprogram.c
+A    p-1/app_1/trunk/trunk/trunk
+A    p-1/app_1/tags/v_272348/trunk/s272336_podprogram.c
+A    p-1/app_1/tags/v_272348/trunk/s999_podprogram.c
+A    p-1/app_1/tags/v_272348/program.h
+A    p-1/app_1/tags/v_272348/program_usage.c
+A    p-1/app_1/tags/v_272336/main.c
+A    p-1/app_1/tags/v_272336/s272333_podprogram.c
+A    p-1/app_1/tags/v_272333/README
+A    p-1/app_1/tags/v_272333/s272333_podprogram.c
+A    p-1/app_1/tags/v_999/README
+A    p-1/app_1/tags/v_999/program_usage.c
+A    p-1/app_1/trunk/s272347_podprogram.c
+A    p-1/app_1/trunk/trunk/s272337_podprogram.c
+A    p-1/app_1/trunk/trunk/trunk/s272345_podprogram.c
+A    p-1/app_1/trunk/s268952_podprogram.c
+A    p-1/app_1/tags/v_272348/main.c
+A    p-1/app_1/trunk/trunk/makefile
+A    p-1/app_1/trunk/trunk/trunk/s269560_podprogram.c
+A    p-1/app_1/trunk/trunk/s268495_podprogram.c
+A    p-1/app_1/trunk/trunk/s272343_podprogram.c
+A    p-1/app_1/trunk/trunk/trunk/s268486_podprogram.c
+A    p-1/app_1/trunk/trunk/trunk/s272348_podprogram.c
+A    p-1/app_1/tags/v_272348/s272336_podprogram.c
+A    p-1/app_1/tags/v_272348/s999_podprogram.c
+A    p-1/app_1/tags/v_272336/program.h
+A    p-1/app_1/tags/v_272336/s0_podprogram.c
+A    p-1/app_1/tags/v_272333/makefile
+A    p-1/app_1/tags/v_272333/s0_podprogram.c
+A    p-1/app_1/tags/v_999/makefile
+A    p-1/app_1/tags/v_999/s999_podprogram.c
+A    p-1/app_1/trunk/main.c
+A    p-1/app_1/tags/v_272336/makefile
+A    p-1/app_1/tags/v_272336/program_usage.c
+A    p-1/app_1/tags/v_272333/main.c
+A    p-1/app_1/tags/v_272333/program_usage.c
+A    p-1/app_1/tags/v_999/main.c
+A    p-1/app_1/tags/v_999/s0_podprogram.c
+A    p-1/app_1/trunk/README
+A    p-1/app_1/trunk/s268488_podprogram.c
+A    p-1/app_1/trunk/trunk/program.h
+A    p-1/app_1/trunk/trunk/trunk/s268497_podprogram.c
+A    p-1/app_1/trunk/trunk/trunk/program_usage.c
+A    p-1/app_1/trunk/trunk/s268486_podprogram.c
+A    p-1/app_1/trunk/trunk/s272336_podprogram.c
+A    p-1/app_1/trunk/trunk/s272345_podprogram.c
+A    p-1/app_1/trunk/trunk/s272333_podprogram.c
+A    p-1/app_1/trunk/trunk/README
+A    p-1/app_1/trunk/trunk/s268488_podprogram.c
+A    p-1/app_1/trunk/trunk/s268896_podprogram.c
+A    p-1/app_1/trunk/trunk/trunk/program.h
+A    p-1/app_1/trunk/trunk/trunk/makefile
+A    p-1/app_1/trunk/trunk/s268509_podprogram.c
+A    p-1/app_1/trunk/trunk/trunk/main.c
+A    p-1/app_1/trunk/trunk/trunk/s272336_podprogram.c
+A    p-1/app_1/trunk/trunk/trunk/s999_podprogram.c
+A    p-1/app_1/trunk/trunk/trunk/README
+A    p-1/app_1/trunk/trunk/s268497_podprogram.c
+A    p-1/app_1/trunk/trunk/trunk/s272333_podprogram.c
+A    p-1/app_1/trunk/trunk/trunk/s0_podprogram.c
+A    p-1/app_1/trunk/trunk/s269560_podprogram.c
+A    p-1/app_1/trunk/trunk/s272348_podprogram.c
+A    p-1/app_1/trunk/s268491_podprogram.c
+A    p-1/app_1/trunk/s272337_podprogram.c
+A    p-1/app_1/trunk/s269560_podprogram.c
+A    p-1/app_1/trunk/trunk/s999_podprogram.c
+A    p-1/app_1/trunk/s268495_podprogram.c
+A    p-1/app_1/trunk/s268486_podprogram.c
+A    p-1/app_1/trunk/s272336_podprogram.c
+A    p-1/app_1/trunk/s999_podprogram.c
+A    p-1/app_1/trunk/trunk/s0_podprogram.c
+A    p-1/app_1/trunk/s268509_podprogram.c
+A    p-1/app_1/trunk/s272345_podprogram.c
+A    p-1/app_1/trunk/s272333_podprogram.c
+A    p-1/app_1/trunk/s0_podprogram.c
+A    p-1/app_1/trunk/trunk/program_usage.c
+A    p-1/app_1/trunk/s268896_podprogram.c
+A    p-1/app_1/trunk/s272343_podprogram.c
+A    p-1/app_1/trunk/s268497_podprogram.c
+A    p-1/app_1/trunk/program_usage.c
+A    p-1/app_1/trunk/s272348_podprogram.c
+ U   p-1
+Pobrano wersję 164.
+weronika@wera-VirtualBox:~/Pulpit/Lista3$ ls
+a.c  a.out  my-log  p-1
+weronika@wera-VirtualBox:~/Pulpit/Lista3$ cd p-1
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1$ cd app_1
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1$ ls
+branches  tags  trunk
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1$ ls branches
+272334  272350  999
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1$ ls tags
+268486       v_268488  v_268495  v_268509  v_268952  v_272333  v_272343  v_272347  v_999
+272337-v1.0  v_268491  v_268497  v_268896  v_269560  v_272336  v_272345  v_272348
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1$ ls trunk
+main.c           s268486_podprogram.c  s268896_podprogram.c  s272343_podprogram.c
+makefile         s268488_podprogram.c  s268952_podprogram.c  s272345_podprogram.c
+program.h        s268491_podprogram.c  s269560_podprogram.c  s272347_podprogram.c
+program_usage.c  s268495_podprogram.c  s272333_podprogram.c  s272348_podprogram.c
+README           s268497_podprogram.c  s272336_podprogram.c  s999_podprogram.c
+s0_podprogram.c  s268509_podprogram.c  s272337_podprogram.c  trunk
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1$ cat trunk/makefile
+objects = main.o program_usage.o \
+                s0_podprogram.o \
+                s999_podprogram.o \
+                s272333_podprogram.o \
+                s272348_podprogram.o \
+                s272336_podprogram.o \
+                s268497_podprogram.o \
+                s272345_podprogram.o \
+                s269560_podprogram.o \
+                s268486_podprogram.o \
+                s272343_podprogram.o \
+        s268495_podprogram.o \
+                s268509_podprogram.o \
+                s268896_podprogram.o \
+                s272337_podprogram.o \
+                s268491_podprogram.o \
+                s272347_podprogram.o \
+                s268488_podprogram.o \
+                s268952_podprogram.o
+
+
+
+program : $(objects)
+        cc -o program $(objects)
+main.o : program.h
+
+program_usage.o : program.h
+
+s0_podprogram.o : program.h
+
+s999_podprogram.o : program.h
+
+s272333_podprogram.o : program.h
+
+s272348_podprogram.o : program.h
+
+s272336_podprogram.o : program.h
+
+s268497_podprogram.o : program.h
+
+s272345_podprogram.o : program.h
+
+s269560_podprogram.o : program.h
+
+s268486_podprogram.o : program.h
+
+s272343_podprogram.o : program.h
+
+s268495_podprogram.o : program.h
+
+s268509_podprogram.o : program.h
+
+s268896_podprogram.o : program.h
+
+s268491_podprogram.o : program.h
+
+s268488_podprogram.o : program.h
+
+s272347_podprogram.o : program.h
+
+s268952_podprogram.o : program.h
+
+.PHONY : clean
+
+clean :
+        -rm *.o program
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1$ ls trunk
+main.c           s268486_podprogram.c  s268896_podprogram.c  s272343_podprogram.c
+makefile         s268488_podprogram.c  s268952_podprogram.c  s272345_podprogram.c
+program.h        s268491_podprogram.c  s269560_podprogram.c  s272347_podprogram.c
+program_usage.c  s268495_podprogram.c  s272333_podprogram.c  s272348_podprogram.c
+README           s268497_podprogram.c  s272336_podprogram.c  s999_podprogram.c
+s0_podprogram.c  s268509_podprogram.c  s272337_podprogram.c  trunk
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1$ cat trunk/README
+Ten plik README utworzony, żeby studenci mogli umieszczać
+tu opisy działania swoich podprogramów.
+
+
+Wywołanie programu:
+
+   program ARG
+
+Dla poszczególnych wartości ARG program działa następująco:
+
+      0 - wyświetla ogólny opis działania podprogramów;
+      999 - wczytuje liczbę i drukuje jej kwadrat.
+      272333 - wczytuje liczbę i sprawdza czy jest pierwsza;
+      272336 - użytkownik zgaduje liczbę!
+      272348 - drukuje liczbe 5 na standardowe wyjscie;
+      268497 - wyliczanie potęgi 2
+      272345 - wypisanie Hello World na standardowym wyjsciu
+      269560 - dodaje dwie liczby podane przez użytkownika
+      268486 - podaje aktualną godzinę
+      272343 - wczytuje liczbę n i sprawdza czy n-kąt foremny jest konstruowalny
+      268495 - oblicza n-tą liczbę ciągu Fibonacciego
+      268509 - wczytuje liczbę i drukuje liczbę dwa razy od niej większą.
+      268488 - wypisuje na standardowe wyjście ASCII art kota.
+      268896 - wypisuje na wyjscie to co uzytkownik wpisal na wejscie
+      272347 - sprawdza ile student godzin uczył się na egzamin z jftt i wróży, czy go zda
+      268952 - wypisuje na standardowe wyjście ASCII art pieska.
+
+Dodatkowo, po zreintegrowaniu swojej gałęzi do trunk-a student ma utworzyć
+w katalogu:
+
+^/app_1/tags
+
+własnego taga tej wersji o nazwie: v_<nr_indeksu>
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1$ svn copy https://repo.cs.pwr.edu.pl/p-
+1/app_1/trunk/ https://repo.cs.pwr.edu.pl/p-1/app_1/branches/268494/
+Committing transaction...
+Zatwierdzona wersja 165.
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1$ cd branches
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches$ ls
+272334  272350  999
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches$ svn update
+Updating '.':
+A    268494
+A    268494/program.h
+A    268494/s272347_podprogram.c
+A    268494/README
+A    268494/main.c
+A    268494/makefile
+A    268494/s268952_podprogram.c
+A    268494/s268488_podprogram.c
+A    268494/trunk
+A    268494/trunk/README
+A    268494/trunk/main.c
+A    268494/trunk/makefile
+A    268494/trunk/program.h
+A    268494/trunk/s268488_podprogram.c
+A    268494/trunk/s268491_podprogram.c
+A    268494/trunk/s268495_podprogram.c
+A    268494/trunk/s268509_podprogram.c
+A    268494/trunk/s268896_podprogram.c
+A    268494/trunk/s272337_podprogram.c
+A    268494/trunk/s272343_podprogram.c
+A    268494/trunk/trunk
+A    268494/trunk/trunk/main.c
+A    268494/trunk/trunk/program.h
+A    268494/trunk/trunk/s272345_podprogram.c
+A    268494/trunk/trunk/s268486_podprogram.c
+A    268494/trunk/trunk/README
+A    268494/trunk/trunk/makefile
+A    268494/trunk/trunk/s269560_podprogram.c
+A    268494/trunk/trunk/s268497_podprogram.c
+A    268494/trunk/trunk/s272333_podprogram.c
+A    268494/trunk/trunk/s272336_podprogram.c
+A    268494/trunk/trunk/s272348_podprogram.c
+A    268494/trunk/trunk/program_usage.c
+A    268494/trunk/trunk/s0_podprogram.c
+A    268494/trunk/trunk/s999_podprogram.c
+A    268494/trunk/s272345_podprogram.c
+A    268494/trunk/s268486_podprogram.c
+A    268494/trunk/s269560_podprogram.c
+A    268494/trunk/s268497_podprogram.c
+A    268494/trunk/s272333_podprogram.c
+A    268494/trunk/s272336_podprogram.c
+A    268494/trunk/s272348_podprogram.c
+A    268494/trunk/program_usage.c
+A    268494/trunk/s0_podprogram.c
+A    268494/trunk/s999_podprogram.c
+A    268494/s268491_podprogram.c
+A    268494/s268896_podprogram.c
+A    268494/s268509_podprogram.c
+A    268494/s268495_podprogram.c
+A    268494/s272337_podprogram.c
+A    268494/s272343_podprogram.c
+A    268494/s272345_podprogram.c
+A    268494/s268486_podprogram.c
+A    268494/s269560_podprogram.c
+A    268494/s268497_podprogram.c
+A    268494/s272333_podprogram.c
+A    268494/s272336_podprogram.c
+A    268494/s272348_podprogram.c
+A    268494/program_usage.c
+A    268494/s0_podprogram.c
+A    268494/s999_podprogram.c
+Uaktualniono do wersji 165.
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches$ ls
+268494  272334  272350  999
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches$ cd 268494
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ touch s268494_podprogr
+am.c
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ svn add s268494*
+A         s268494_podprogram.c
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ nano s268494_podprogra
+m.c
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ ls
+main.c                s268488_podprogram.c  s268952_podprogram.c  s272347_podprogram.c
+makefile              s268491_podprogram.c  s269560_podprogram.c  s272348_podprogram.c
+program.h             s268494_podprogram.c  s272333_podprogram.c  s999_podprogram.c
+program_usage.c       s268495_podprogram.c  s272336_podprogram.c  trunk
+README                s268497_podprogram.c  s272337_podprogram.c
+s0_podprogram.c       s268509_podprogram.c  s272343_podprogram.c
+s268486_podprogram.c  s268896_podprogram.c  s272345_podprogram.c
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ nano main.c
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ nano makefile
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ nano program.h
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ nano README
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ svn status
+M       README
+M       main.c
+M       makefile
+M       program.h
+A       s268494_podprogram.c
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ make
+cc    -c -o main.o main.c
+cc    -c -o program_usage.o program_usage.c
+cc    -c -o s0_podprogram.o s0_podprogram.c
+cc    -c -o s999_podprogram.o s999_podprogram.c
+cc    -c -o s272333_podprogram.o s272333_podprogram.c
+cc    -c -o s272348_podprogram.o s272348_podprogram.c
+cc    -c -o s272336_podprogram.o s272336_podprogram.c
+cc    -c -o s268497_podprogram.o s268497_podprogram.c
+cc    -c -o s272345_podprogram.o s272345_podprogram.c
+cc    -c -o s269560_podprogram.o s269560_podprogram.c
+cc    -c -o s268486_podprogram.o s268486_podprogram.c
+cc    -c -o s272343_podprogram.o s272343_podprogram.c
+cc    -c -o s268495_podprogram.o s268495_podprogram.c
+cc    -c -o s268509_podprogram.o s268509_podprogram.c
+cc    -c -o s268896_podprogram.o s268896_podprogram.c
+cc    -c -o s272337_podprogram.o s272337_podprogram.c
+cc    -c -o s268491_podprogram.o s268491_podprogram.c
+cc    -c -o s272347_podprogram.o s272347_podprogram.c
+cc    -c -o s268488_podprogram.o s268488_podprogram.c
+cc    -c -o s268952_podprogram.o s268952_podprogram.c
+cc    -c -o s268494_podprogram.o s268494_podprogram.c
+cc -o program main.o program_usage.o s0_podprogram.o s999_podprogram.o s272333_podprogram.
+o s272348_podprogram.o s272336_podprogram.o s268497_podprogram.o s272345_podprogram.o s269
+560_podprogram.o s268486_podprogram.o s272343_podprogram.o s268495_podprogram.o s268509_po
+dprogram.o s268896_podprogram.o s272337_podprogram.o s268491_podprogram.o s272347_podprogr
+am.o s268488_podprogram.o s268952_podprogram.o s268494_podprogram.o
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ ls
+main.c                s268488_podprogram.c  s268896_podprogram.c  s272343_podprogram.c
+main.o                s268488_podprogram.o  s268896_podprogram.o  s272343_podprogram.o
+makefile              s268491_podprogram.c  s268952_podprogram.c  s272345_podprogram.c
+program               s268491_podprogram.o  s268952_podprogram.o  s272345_podprogram.o
+program.h             s268494_podprogram.c  s269560_podprogram.c  s272347_podprogram.c
+program_usage.c       s268494_podprogram.o  s269560_podprogram.o  s272347_podprogram.o
+program_usage.o       s268495_podprogram.c  s272333_podprogram.c  s272348_podprogram.c
+README                s268495_podprogram.o  s272333_podprogram.o  s272348_podprogram.o
+s0_podprogram.c       s268497_podprogram.c  s272336_podprogram.c  s999_podprogram.c
+s0_podprogram.o       s268497_podprogram.o  s272336_podprogram.o  s999_podprogram.o
+s268486_podprogram.c  s268509_podprogram.c  s272337_podprogram.c  trunk
+s268486_podprogram.o  s268509_podprogram.o  s272337_podprogram.o
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ ./program
+wywołanie: program <nr_indeksu>
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ ./program 268494
+Weronika Chmiela 268494
+Program sprawdza, czy podano mu liczbe 5
+
+Prosze podać liczbe 5:5
+Podano 5
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ #dziala
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ svn status
+M       README
+M       main.c
+M       makefile
+?       program
+M       program.h
+A       s268494_podprogram.c
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ svn commit -m "Dodano
+podprogram sprawdzajacy czy podanu mu liczbe 5"
+Wysyłanie       README
+Wysyłanie       main.c
+Wysyłanie       makefile
+Wysyłanie       program.h
+Dodawanie       s268494_podprogram.c
+Przesyłanie treści pliku.....done
+Committing transaction...
+Zatwierdzona wersja 166.
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ svn status
+?       program
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ svn mergeinfo --show-r
+evs=eligible https://repo.cs.pwr.edu.pl/p-1/app_1/trunk/ https://repo.cs.pwr.edu.pl/p-1/ap
+p_1/branches/268494/
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ svn status
+?       program
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ svn mergeinfo --show-r
+evs=eligible https://repo.cs.pwr.edu.pl/p-1/app_1/trunk/ https://repo.cs.pwr.edu.pl/p-1/ap
+p_1/branches/268494/
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ svn update
+Updating '.':
+W wersji 166.
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ pwd
+/home/weronika/Pulpit/Lista3/p-1/app_1/branches/268494
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ svn merge ^/app_1/trun
+k
+--- Recording mergeinfo for merge of r165 through r166 into '.':
+ U   .
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ svn status
+ M      .
+?       program
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ svn commit -m "zmergow
+ano branch 268494"
+Wysyłanie       .
+Committing transaction...
+Zatwierdzona wersja 167.
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/branches/268494$ cd ../..
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1$ cd trunk
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/trunk$ svn update
+Updating '.':
+W wersji 167.
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/trunk$ svn merge --reintegrate ^/app_1/
+branches/268494
+--- Łączenie zmian nastąpiłych pomiędzy URL-ami repozytorium do '.':
+U    README
+U    main.c
+U    makefile
+U    program.h
+A    s268494_podprogram.c
+ U   .
+--- Recording mergeinfo for merge between repository URLs into '.':
+ G   .
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/trunk$ #test
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/trunk$ make
+cc    -c -o main.o main.c
+cc    -c -o program_usage.o program_usage.c
+cc    -c -o s0_podprogram.o s0_podprogram.c
+cc    -c -o s999_podprogram.o s999_podprogram.c
+cc    -c -o s272333_podprogram.o s272333_podprogram.c
+cc    -c -o s272348_podprogram.o s272348_podprogram.c
+cc    -c -o s272336_podprogram.o s272336_podprogram.c
+cc    -c -o s268497_podprogram.o s268497_podprogram.c
+cc    -c -o s272345_podprogram.o s272345_podprogram.c
+cc    -c -o s269560_podprogram.o s269560_podprogram.c
+cc    -c -o s268486_podprogram.o s268486_podprogram.c
+cc    -c -o s272343_podprogram.o s272343_podprogram.c
+cc    -c -o s268495_podprogram.o s268495_podprogram.c
+cc    -c -o s268509_podprogram.o s268509_podprogram.c
+cc    -c -o s268896_podprogram.o s268896_podprogram.c
+cc    -c -o s272337_podprogram.o s272337_podprogram.c
+cc    -c -o s268491_podprogram.o s268491_podprogram.c
+cc    -c -o s272347_podprogram.o s272347_podprogram.c
+cc    -c -o s268488_podprogram.o s268488_podprogram.c
+cc    -c -o s268952_podprogram.o s268952_podprogram.c
+cc    -c -o s268494_podprogram.o s268494_podprogram.c
+cc -o program main.o program_usage.o s0_podprogram.o s999_podprogram.o s272333_podprogram.
+o s272348_podprogram.o s272336_podprogram.o s268497_podprogram.o s272345_podprogram.o s269
+560_podprogram.o s268486_podprogram.o s272343_podprogram.o s268495_podprogram.o s268509_po
+dprogram.o s268896_podprogram.o s272337_podprogram.o s268491_podprogram.o s272347_podprogr
+am.o s268488_podprogram.o s268952_podprogram.o s268494_podprogram.o
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/trunk$ ./program 268494
+Weronika Chmiela 268494
+Program sprawdza, czy podano mu liczbe 5
+
+Prosze podać liczbe 5:45
+Zawarto 5
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/trunk$ svn commit -m "reintegracja gałę
+zi 268494"
+Wysyłanie       .
+Wysyłanie       README
+Wysyłanie       main.c
+Wysyłanie       makefile
+Wysyłanie       program.h
+Dodawanie       s268494_podprogram.c
+Przesyłanie treści pliku....done
+Committing transaction...
+Zatwierdzona wersja 168.
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/trunk$ svn delete ^/branches/268494
+svn: E160013: URL 'https://repo.cs.pwr.edu.pl/p-1/branches/268494' does not exist
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/trunk$ svn delete ^/app_1/branches/2684
+94
+Committing transaction...
+Zatwierdzona wersja 169.
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/trunk$ svn status
+?       program
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/trunk$ cd ..
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1$ svn status
+?       branches/268494/program
+?       trunk/program
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1$ svn copy https://repo.cs.pwr.edu.pl/p-
+1/app_1/trunk/ https://repo.cs.pwr.edu.pl/p-1/app_1/tags/v_268494/
+Committing transaction...
+Zatwierdzona wersja 170.
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1$ cd tags
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/tags$ ls
+268486       v_268488  v_268495  v_268509  v_268952  v_272333  v_272343  v_272347  v_999
+272337-v1.0  v_268491  v_268497  v_268896  v_269560  v_272336  v_272345  v_272348
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/tags$ svn status
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/tags$ svn update
+Updating '.':
+A    v_268494
+A    v_268494/README
+A    v_268494/main.c
+A    v_268494/makefile
+A    v_268494/program.h
+A    v_268494/s268494_podprogram.c
+A    v_268494/s272347_podprogram.c
+A    v_268494/s268952_podprogram.c
+A    v_268494/s268488_podprogram.c
+A    v_268494/trunk
+A    v_268494/trunk/README
+A    v_268494/trunk/main.c
+A    v_268494/trunk/makefile
+A    v_268494/trunk/program.h
+A    v_268494/trunk/s268488_podprogram.c
+A    v_268494/trunk/s268491_podprogram.c
+A    v_268494/trunk/s268495_podprogram.c
+A    v_268494/trunk/s268509_podprogram.c
+A    v_268494/trunk/s268896_podprogram.c
+A    v_268494/trunk/s272337_podprogram.c
+A    v_268494/trunk/s272343_podprogram.c
+A    v_268494/trunk/trunk
+A    v_268494/trunk/trunk/main.c
+A    v_268494/trunk/trunk/program.h
+A    v_268494/trunk/trunk/s272345_podprogram.c
+A    v_268494/trunk/trunk/s268486_podprogram.c
+A    v_268494/trunk/trunk/README
+A    v_268494/trunk/trunk/makefile
+A    v_268494/trunk/trunk/s269560_podprogram.c
+A    v_268494/trunk/trunk/s268497_podprogram.c
+A    v_268494/trunk/trunk/s272333_podprogram.c
+A    v_268494/trunk/trunk/s272336_podprogram.c
+A    v_268494/trunk/trunk/s272348_podprogram.c
+A    v_268494/trunk/trunk/program_usage.c
+A    v_268494/trunk/trunk/s0_podprogram.c
+A    v_268494/trunk/trunk/s999_podprogram.c
+A    v_268494/trunk/s272345_podprogram.c
+A    v_268494/trunk/s268486_podprogram.c
+A    v_268494/trunk/s269560_podprogram.c
+A    v_268494/trunk/s268497_podprogram.c
+A    v_268494/trunk/s272333_podprogram.c
+A    v_268494/trunk/s272336_podprogram.c
+A    v_268494/trunk/s272348_podprogram.c
+A    v_268494/trunk/program_usage.c
+A    v_268494/trunk/s0_podprogram.c
+A    v_268494/trunk/s999_podprogram.c
+A    v_268494/s268491_podprogram.c
+A    v_268494/s268896_podprogram.c
+A    v_268494/s268509_podprogram.c
+A    v_268494/s268495_podprogram.c
+A    v_268494/s272337_podprogram.c
+A    v_268494/s272343_podprogram.c
+A    v_268494/s272345_podprogram.c
+A    v_268494/s268486_podprogram.c
+A    v_268494/s269560_podprogram.c
+A    v_268494/s268497_podprogram.c
+A    v_268494/s272333_podprogram.c
+A    v_268494/s272336_podprogram.c
+A    v_268494/s272348_podprogram.c
+A    v_268494/program_usage.c
+A    v_268494/s0_podprogram.c
+A    v_268494/s999_podprogram.c
+Uaktualniono do wersji 170.
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/tags$ ls
+268486       v_268491  v_268497  v_268952  v_272336  v_272347
+272337-v1.0  v_268494  v_268509  v_269560  v_272343  v_272348
+v_268488     v_268495  v_268896  v_272333  v_272345  v_999
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/tags$ cd v_268494
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/tags/v_268494$ make
+cc    -c -o main.o main.c
+cc    -c -o program_usage.o program_usage.c
+cc    -c -o s0_podprogram.o s0_podprogram.c
+cc    -c -o s999_podprogram.o s999_podprogram.c
+cc    -c -o s272333_podprogram.o s272333_podprogram.c
+cc    -c -o s272348_podprogram.o s272348_podprogram.c
+cc    -c -o s272336_podprogram.o s272336_podprogram.c
+cc    -c -o s268497_podprogram.o s268497_podprogram.c
+cc    -c -o s272345_podprogram.o s272345_podprogram.c
+cc    -c -o s269560_podprogram.o s269560_podprogram.c
+cc    -c -o s268486_podprogram.o s268486_podprogram.c
+cc    -c -o s272343_podprogram.o s272343_podprogram.c
+cc    -c -o s268495_podprogram.o s268495_podprogram.c
+cc    -c -o s268509_podprogram.o s268509_podprogram.c
+cc    -c -o s268896_podprogram.o s268896_podprogram.c
+cc    -c -o s272337_podprogram.o s272337_podprogram.c
+cc    -c -o s268491_podprogram.o s268491_podprogram.c
+cc    -c -o s272347_podprogram.o s272347_podprogram.c
+cc    -c -o s268488_podprogram.o s268488_podprogram.c
+cc    -c -o s268952_podprogram.o s268952_podprogram.c
+cc    -c -o s268494_podprogram.o s268494_podprogram.c
+cc -o program main.o program_usage.o s0_podprogram.o s999_podprogram.o s272333_podprogram.
+o s272348_podprogram.o s272336_podprogram.o s268497_podprogram.o s272345_podprogram.o s269
+560_podprogram.o s268486_podprogram.o s272343_podprogram.o s268495_podprogram.o s268509_po
+dprogram.o s268896_podprogram.o s272337_podprogram.o s268491_podprogram.o s272347_podprogr
+am.o s268488_podprogram.o s268952_podprogram.o s268494_podprogram.o
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/tags/v_268494$ ./program 268494
+Weronika Chmiela 268494
+Program sprawdza, czy podano mu liczbe 5
+
+Prosze podać liczbe 5:555
+Podano dużo 5
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/tags/v_268494$ #dziala
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/tags/v_268494$ svn diff https://repo.cs
+.pwr.edu.pl/p-1/app_1/trunk/ https://repo.cs.pwr.edu.pl/p-1/app_1/tags/v_268494/
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/tags/v_268494$ svn log https://repo.cs.
+pwr.edu.pl/p-1/tags/v_268494/
+svn: E160013: Nie znaleziono ścieżki '/p-1/!svn/rvr/170/tags/v_268494'
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/tags/v_268494$ svn log https://repo.cs.
+pwr.edu.pl/p-1/app_1/tags/v_268494/
+------------------------------------------------------------------------
+r170 | 268494 | 2024-11-17 19:50:41 +0100 (nie) | 2 linie
+
+utworzenie tags 268494
+
+------------------------------------------------------------------------
+r168 | 268494 | 2024-11-17 19:47:40 +0100 (nie) | 1 linia
+
+reintegracja gałęzi 268494
+------------------------------------------------------------------------
+r161 | 268952 | 2024-11-17 16:48:42 +0100 (nie) | 1 linia
+
+modified errors from 272347 in 268952 trunk
+------------------------------------------------------------------------
+r160 | 268952 | 2024-11-17 16:37:52 +0100 (nie) | 1 linia
+
+Resolved conflicts for branch 268952
+------------------------------------------------------------------------
+r159 | 268952 | 2024-11-17 16:26:32 +0100 (nie) | 1 linia
+
+Merged changes from revision 146 to 158 from branch 268952
+------------------------------------------------------------------------
+r158 | 268952 | 2024-11-17 16:21:01 +0100 (nie) | 1 linia
+
+Minore changes
+------------------------------------------------------------------------
+r157 | 268952 | 2024-11-17 16:01:30 +0100 (nie) | 1 linia
+
+add s268952_podprogram.c
+------------------------------------------------------------------------
+r155 | 268952 | 2024-11-17 15:36:18 +0100 (nie) | 1 linia
+
+Resolved tree conflict and accepting external changes
+------------------------------------------------------------------------
+r151 | 272347 | 2024-11-17 15:14:36 +0100 (nie) | 1 linia
+
+setting UTF-8 charset, second try
+------------------------------------------------------------------------
+r150 | 272347 | 2024-11-17 15:13:09 +0100 (nie) | 1 linia
+
+setting UTF-8 charset
+------------------------------------------------------------------------
+r149 | 272347 | 2024-11-17 15:10:08 +0100 (nie) | 1 linia
+
+add 272347 module to trunk
+------------------------------------------------------------------------
+r137 | 268488 | 2024-11-17 13:35:21 +0100 (nie) | 1 linia
+
+merged 268488
+------------------------------------------------------------------------
+r136 | 268488 | 2024-11-17 13:27:03 +0100 (nie) | 1 linia
+
+merged 268488
+------------------------------------------------------------------------
+r129 | 268491 | 2024-11-17 13:01:52 +0100 (nie) | 1 linia
+
+Zmiana kodowania na UTF-8 268491
+------------------------------------------------------------------------
+r128 | 268896 | 2024-11-17 13:00:10 +0100 (nie) | 1 linia
+
+Reintegracja 268896 z trunkiem
+------------------------------------------------------------------------
+r123 | 268491 | 2024-11-17 12:29:25 +0100 (nie) | 1 linia
+
+Reintegracja 268491 z trunkiem
+------------------------------------------------------------------------
+r116 | 268509 | 2024-11-16 21:01:37 +0100 (sob) | 1 linia
+
+konflikt rozwiązany
+------------------------------------------------------------------------
+r114 | 268509 | 2024-11-16 20:46:11 +0100 (sob) | 1 linia
+
+Reintegracja gałęzi studenta 268509 z trunk
+------------------------------------------------------------------------
+r105 | 268495 | 2024-11-16 13:27:13 +0100 (sob) | 1 linia
+
+Scalenie 268495 z trunk
+------------------------------------------------------------------------
+r101 | 272337 | 2024-11-15 13:51:56 +0100 (pią) | 1 linia
+
+brak ;
+------------------------------------------------------------------------
+r100 | 272337 | 2024-11-15 13:50:58 +0100 (pią) | 1 linia
+
+brak ;
+------------------------------------------------------------------------
+r96 | 272337 | 2024-11-15 13:27:13 +0100 (pią) | 1 linia
+
+proba 3
+------------------------------------------------------------------------
+r92 | 272343 | 2024-11-15 11:56:03 +0100 (pią) | 1 linia
+
+zrobione :)
+------------------------------------------------------------------------
+r89 | 272343 | 2024-11-15 11:30:56 +0100 (pią) | 1 linia
+
+Module from 272343
+------------------------------------------------------------------------
+r72 | 272345 | 2024-11-14 21:32:47 +0100 (czw) | 1 linia
+
+zmiany w podprogramie
+------------------------------------------------------------------------
+r63 | 268486 | 2024-11-13 20:22:07 +0100 (śro) | 1 linia
+
+reintegracja galezi 268486 z trunk
+------------------------------------------------------------------------
+r61 | 268486 | 2024-11-13 20:17:20 +0100 (śro) | 1 linia
+
+Reintegracja gałęzi 268486 z trunk
+------------------------------------------------------------------------
+r52 | 269560 | 2024-11-13 00:42:47 +0100 (śro) | 1 linia
+
+student 269560 reintegruje swoją gałąź z trunkiem
+------------------------------------------------------------------------
+r46 | 272345 | 2024-11-12 22:52:10 +0100 (wto) | 1 linia
+
+dodanie do trunka 272345
+------------------------------------------------------------------------
+r39 | 268497 | 2024-11-12 20:17:49 +0100 (wto) | 1 linia
+
+Merge gałęzi 268497 z trunk'iem
+------------------------------------------------------------------------
+r30 | 272348 | 2024-11-12 12:55:09 +0100 (wto) | 1 linia
+
+Merge branch to trunk
+------------------------------------------------------------------------
+r26 | 272336 | 2024-11-12 12:33:41 +0100 (wto) | 1 linia
+
+fix: readme
+------------------------------------------------------------------------
+r18 | 272333 | 2024-11-04 20:04:21 +0100 (pon) | 3 linie
+
+Integracja gałęzi z trunkiem
+
+
+------------------------------------------------------------------------
+r13 | mk1 | 2024-10-29 13:45:35 +0100 (wto) | 2 linie
+
+wykonano: `svn propset svn:mime-type 'text/plain;charset=utf-8' $(find app_1/ -type f )`
+
+------------------------------------------------------------------------
+r12 | admin | 2020-11-12 10:52:01 +0100 (czw) | 2 linie
+
+Poprawione kodowanie README i względny adres katalogu z tagami.
+
+------------------------------------------------------------------------
+r10 | 999 | 2016-10-24 13:55:29 +0200 (pon) | 3 linie
+
+999 zreintegrował swoją gałąź z trunk-iem
+
+
+------------------------------------------------------------------------
+r7 | admin | 2016-10-24 13:44:15 +0200 (pon) | 3 linie
+
+Dodatkowe wyjaśnienia w pliku README o tworzeniu tag-ów
+
+
+------------------------------------------------------------------------
+r3 | 999 | 2016-10-24 13:04:10 +0200 (pon) | 2 linie
+
+dodano plik README w trunk
+
+------------------------------------------------------------------------
+r1 | admin | 2016-10-17 14:28:36 +0200 (pon) | 3 linie
+
+początkowa wersja projektu.
+
+
+------------------------------------------------------------------------
+weronika@wera-VirtualBox:~/Pulpit/Lista3/p-1/app_1/tags/v_268494$ tmux capture-pane -p -S'
+-' -E'-' >> l3z1
+

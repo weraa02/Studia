@@ -1,0 +1,733 @@
+weronika@wera-VirtualBox:~/Pulpit/a/Z1$ #Weronika Chmiela 268494                                                      
+weronika@wera-VirtualBox:~/Pulpit/a/Z1$ #ŚP lista4         
+weronika@wera-VirtualBox:~/Pulpit/a/Z1$ #ZAD1              
+weronika@wera-VirtualBox:~/Pulpit/a/Z1$                    
+weronika@wera-VirtualBox:~/Pulpit/a/Z1$ git clone ssh://git@156.17.7.16:59004/24-25-1-p-1                             
+Klonowanie do „24-25-1-p-1”...                             
+remote: Enumerating objects: 193, done.                    
+remote: Counting objects: 100% (193/193), done.            
+remote: Compressing objects: 100% (193/193), done.         
+remote: Total 193 (delta 108), reused 0 (delta 0), pack-reused 0                                                      
+Pobieranie obiektów: 100% (193/193), 25.01 KiB | 581.00 KiB/s, gotowe.                                                
+Rozwiązywanie delt: 100% (108/108), gotowe.                
+weronika@wera-VirtualBox:~/Pulpit/a/Z1$ cd 24*             
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git branch                                                             
+* master                      
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git checkout -b 268494br                                               
+Przełączono na nową gałąź „268494br”                         
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git branch                                                             
+* 268494br                    
+  master                      
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ touch s268494                                                          
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ mv s268494 s268494_podprogram.c                                        
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git status                                                             
+Na gałęzi 268494br            
+Nieśledzone pliki:            
+  (użyj „git add <plik>...”, żeby uwzględnić, co zostanie złożone)                                                         
+        s268494_podprogram.c  
+
+nie dodano nic do złożenia, ale są nieśledzone pliki (użyj „git add”, aby śledzić)                                         
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git add s268494*                                                       
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git status                                                             
+Na gałęzi 268494br            
+Zmiany do złożenia:           
+  (użyj „git restore --staged <plik>...”, aby wycofać)       
+        nowy plik:       s268494_podprogram.c                
+
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ #zmodyfikowane pliki                                                   
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git status                                                             
+Na gałęzi 268494br            
+Zmiany do złożenia:           
+  (użyj „git restore --staged <plik>...”, aby wycofać)       
+        nowy plik:       s268494_podprogram.c                
+
+Zmiany nie przygotowane do złożenia:                         
+  (użyj „git add <plik>...”, żeby zmienić, co zostanie złożone)                                                            
+  (użyj „git restore <plik>...”, aby odrzucić zmiany w katalogu roboczym)                                                  
+        zmieniono:       main.c                              
+        zmieniono:       makefile                            
+        zmieniono:       program.h                           
+        zmieniono:       s268494_podprogram.c                
+
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ cat s268494*                                                           
+#include "program.h"          
+
+void s268494_podprogram()     
+{                             
+    printf("Weronika Chmiela 268494\n");                     
+
+    printf("Program sprawdza, czy podano mu liczbe 5\n\n");  
+                              
+    printf("Prosze podać liczbe 5:");                        
+    int x;                    
+    scanf("%d", &x);          
+
+    if(x == 5){               
+        printf("Podano 5 \n");                               
+    }                         
+    else {                    
+        int n=x;    //do zachowania orginalnej wartosc       
+        int m;                
+        int i=0;              
+        //badamy kazda cyfre liczby                          
+        while(n != 0){        
+            m = n%10;         
+            if(m == 5){       
+                i = (i+5)*10;   //odtwaraza liczbe           
+            }                 
+
+            n = (n-m)/10;     
+        }                     
+        if(i==0){             
+            printf("Nie podano 5 \n");                       
+        }                     
+        else if(i == x*10){   
+            printf("Podano dużo 5 \n");                      
+        }                     
+        else{                 
+            printf("Zawarto 5 \n");                          
+
+        }                     
+
+    }                         
+}                             
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ make     
+cc    -c -o main.o main.c     
+cc    -c -o program_usage.o program_usage.c                  
+cc    -c -o s0_podprogram.o s0_podprogram.c                  
+cc    -c -o s999.o s999.c     
+cc    -c -o s272333_podprogram.o s272333_podprogram.c        
+cc    -c -o s269560_podprogram.o s269560_podprogram.c        
+cc    -c -o s272343_podprogram.o s272343_podprogram.c        
+cc    -c -o s272335_podprogram.o s272335_podprogram.c        
+cc    -c -o s272348_podprogram.o s272348_podprogram.c        
+cc    -c -o s272336_podprogram.o s272336_podprogram.c        
+cc    -c -o s272330_podprogram.o s272330_podprogram.c        
+cc    -c -o s268495_podprogram.o s268495_podprogram.c        
+cc    -c -o s272332_podprogram.o s272332_podprogram.c        
+cc    -c -o s268952_podprogram.o s268952_podprogram.c        
+cc    -c -o s272345_podprogram.o s272345_podprogram.c        
+cc    -c -o s268896_podprogram.o s268896_podprogram.c        
+cc    -c -o s268492_podprogram.o s268492_podprogram.c        
+cc    -c -o s268509_podprogram.o s268509_podprogram.c        
+cc    -c -o s272232_podprogram.o s272232_podprogram.c        
+cc    -c -o s268490_podprogram.o s268490_podprogram.c        
+cc    -c -o s272334_podprogram.o s272334_podprogram.c        
+cc    -c -o s272338_podprogram.o s272338_podprogram.c        
+cc    -c -o s268488_podprogram.o s268488_podprogram.c        
+cc    -c -o s268494_podprogram.o s268494_podprogram.c        
+cc -o program main.o program_usage.o s0_podprogram.o s999.o s272333_podprogram.o s269560_podprogram.o s272343_podprogram.o s272335_podprogram.o s272348_podprogram.o s272336_podprogram.o s272330_podprogram.o s268495_podprogram.o s272332_podprogram.o s268952_podprogram.o s272345_podprogram.o s268896_podprogram.o s268492_podprogram.o s268509_podprogram.o s272232_podprogram.o s268490_podprogram.o s272334_podprogram.o s272338_podprogram.o s268488_podprogram.o s268494_podprogram.o -lm         
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ ./program 268494                                                       
+Weronika Chmiela 268494       
+Program sprawdza, czy podano mu liczbe 5                     
+
+Prosze podać liczbe 5:5       
+Podano 5                      
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ make clean                                                             
+rm *.o program                
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git status                                                             
+Na gałęzi 268494br            
+Zmiany do złożenia:           
+  (użyj „git restore --staged <plik>...”, aby wycofać)       
+        nowy plik:       s268494_podprogram.c                
+
+Zmiany nie przygotowane do złożenia:                         
+  (użyj „git add <plik>...”, żeby zmienić, co zostanie złożone)                                                            
+  (użyj „git restore <plik>...”, aby odrzucić zmiany w katalogu roboczym)                                                  
+        zmieniono:       main.c                              
+        zmieniono:       makefile                            
+        zmieniono:       program.h                           
+        zmieniono:       s268494_podprogram.c                
+
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git commit -m "Dodano program sprawdzajcy podanie liczby 5"            
+
+*** Powiedz mi, kim jesteś.   
+
+Wykonaj                       
+
+  git config --global user.email "toja@example.com"          
+  git config --global user.name "Twoje Imię Nazwisko"        
+
+by ustawić domyślną tożsamość swojego konta.                 
+Pomiń --global, żeby ustawić tożsamość tylko w tym repozytorium.                                                           
+
+fatal: nie można wykryć automatycznie adresu e-mail (otrzymano „weronika@wera-VirtualBox.(none)”)                          
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git commit -m "Dodano program sprawdzajcy podanie liczby 5"            
+[268494br 337d797] Dodano program sprawdzajcy podanie liczby 5                                                             
+ 1 file changed, 0 insertions(+), 0 deletions(-)             
+ create mode 100644 s268494_podprogram.c                     
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git status                                                             
+Na gałęzi 268494br            
+Zmiany nie przygotowane do złożenia:                         
+  (użyj „git add <plik>...”, żeby zmienić, co zostanie złożone)                                                            
+  (użyj „git restore <plik>...”, aby odrzucić zmiany w katalogu roboczym)                                                  
+        zmieniono:       main.c                              
+        zmieniono:       makefile                            
+        zmieniono:       program.h                           
+        zmieniono:       s268494_podprogram.c                
+
+brak zmian dodanych do zapisu (użyj „git add” i/lub „git commit -a”)                                                       
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git commit -a -m "Zmieniono pliki w branchu"                           
+[268494br ae1217a] Zmieniono pliki w branchu                 
+ 4 files changed, 49 insertions(+), 1 deletion(-)            
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git status                                                             
+Na gałęzi 268494br            
+nic do złożenia, drzewo robocze czyste                       
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git puh  
+git: „puh” nie jest poleceniem gita. Zobacz „git --help”.    
+
+Najpodobniejsze polecenie to  
+        push                  
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git push 
+fatal: Bieżąca gałąź 268494br nie ma gałęzi nadrzędnej.      
+Aby wypchnąć bieżącą gałąź i ustawić zdalne repozytorium jako nadrzędne, użyj                                              
+
+    git push --set-upstream origin 268494br                  
+
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git push --set-upstream origin 268494br                                
+Wymienianie obiektów: 13, gotowe.                            
+Zliczanie obiektów: 100% (13/13), gotowe.                    
+Kompresja delt z użyciem do 4 wątków                         
+Kompresowanie obiektów: 100% (8/8), gotowe.                  
+Zapisywanie obiektów: 100% (9/9), 1.17 KiB | 1.17 MiB/s, gotowe.                                                           
+Total 9 (delta 5), reused 0 (delta 0)                        
+To ssh://156.17.7.16:59004/24-25-1-p-1                       
+ * [new branch]      268494br -> 268494br                    
+Gałąź „268494br” ustawiona na śledzenie zdalnej gałęzi „268494br” z „origin”.                                              
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git pull 
+Już aktualne.                 
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git checkout master                                                    
+Przełączono na gałąź „master” 
+Twoja gałąź jest na bieżąco z „origin/master”.               
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git pull                                                               
+Już aktualne.                 
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git checkout 268494br                                                  
+Przełączono na gałąź „268494br”                              
+Twoja gałąź jest na bieżąco z „origin/268494br”.             
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git merge master                                                       
+Już aktualne.                 
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git checkout master                                                    
+Przełączono na gałąź „master” 
+Twoja gałąź jest na bieżąco z „origin/master”.               
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git pull                                                               
+Już aktualne.                 
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git branch                                                             
+  268494br                    
+* master                      
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git merge 268494br                                                     
+Aktualizowanie e94e476..ae1217a                              
+Fast-forward                  
+ main.c               |  3 +++
+ makefile             |  5 ++++-                             
+ program.h            |  1 +  
+ s268494_podprogram.c | 41 +++++++++++++++++++++++++++++++++++++++++                                                       
+ 4 files changed, 49 insertions(+), 1 deletion(-)            
+ create mode 100644 s268494_podprogram.c                     
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git pull 
+Już aktualne.                 
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git status                                                             
+Na gałęzi master              
+Twoja gałąź jest do przodu względem „origin/master” o 2 zapisy.                                                            
+  (użyj „git push”, aby opublikować swoje zapisy)            
+
+nic do złożenia, drzewo robocze czyste                       
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git commit -m "merge master z branchem 268494br"                       
+Na gałęzi master              
+Twoja gałąź jest do przodu względem „origin/master” o 2 zapisy.                                                            
+  (użyj „git push”, aby opublikować swoje zapisy)            
+
+nic do złożenia, drzewo robocze czyste                       
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git push 
+Total 0 (delta 0), reused 0 (delta 0)                        
+To ssh://156.17.7.16:59004/24-25-1-p-1                       
+   e94e476..ae1217a  master -> master                        
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git status                                                             
+Na gałęzi master              
+Twoja gałąź jest na bieżąco z „origin/master”.               
+
+nic do złożenia, drzewo robocze czyste                       
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git branch                                                             
+  268494br                    
+* master                      
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git branch -d 268494br                                                 
+Usunięto gałąź 268494br (wskazywała ae1217a).                
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git branch                                                             
+* master                      
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git tag  
+268896                        
+272330                        
+272336                        
+272338                        
+s268488                       
+s268490                       
+s268495                       
+s268509                       
+s268511                       
+s269560                       
+s272332                       
+s272333                       
+s272334                       
+s272337                       
+s272350                       
+s999                          
+v1.0-student-268952           
+v272232                       
+v272348                       
+v_268492                      
+v_272335                      
+v_272335_2                    
+v_272343                      
+v_272345                      
+v_272345_poprawiony           
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git tag -a s268494 -m "wersja dla 268494"                              
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git status                                                             
+Na gałęzi master              
+Twoja gałąź jest na bieżąco z „origin/master”.               
+
+nic do złożenia, drzewo robocze czyste                       
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git tag                                                                
+268896                        
+272330                        
+272336                        
+272338                        
+s268488                       
+s268490                       
+s268494                       
+s268495                       
+s268509                       
+s268511                       
+s269560                       
+s272332                       
+s272333                       
+s272334                       
+s272337                       
+s272350                       
+s999                          
+v1.0-student-268952           
+v272232                       
+v272348                       
+v_268492                      
+v_272335                      
+v_272335_2                    
+v_272343                      
+v_272345                      
+v_272345_poprawiony           
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ git push --tags                                                        
+Wymienianie obiektów: 1, gotowe.                             
+Zliczanie obiektów: 100% (1/1), gotowe.                      
+Zapisywanie obiektów: 100% (1/1), 168 bajtów | 168.00 KiB/s, gotowe.                                                       
+Total 1 (delta 0), reused 0 (delta 0)                        
+To ssh://156.17.7.16:59004/24-25-1-p-1                       
+ * [new tag]         s268494 -> s268494                      
+weronika@wera-VirtualBox:~/Pulpit/a/Z1/24-25-1-p-1$ cd ../.. 
+weronika@wera-VirtualBox:~/Pulpit/a$ cd TEST                 
+weronika@wera-VirtualBox:~/Pulpit/a/TEST$ git clone ssh://git@156.17.7.16:59004/24-25-1-p-1                                
+Klonowanie do „24-25-1-p-1”...
+remote: Enumerating objects: 203, done.                      
+remote: Counting objects: 100% (203/203), done.              
+remote: Compressing objects: 100% (202/202), done.           
+remote: Total 203 (delta 113), reused 0 (delta 0), pack-reused 0                                                           
+Pobieranie obiektów: 100% (203/203), 26.22 KiB | 559.00 KiB/s, gotowe.                                                     
+Rozwiązywanie delt: 100% (113/113), gotowe.                  
+weronika@wera-VirtualBox:~/Pulpit/a/TEST$ cd 24*             
+weronika@wera-VirtualBox:~/Pulpit/a/TEST/24-25-1-p-1$ make   
+cc    -c -o main.o main.c     
+cc    -c -o program_usage.o program_usage.c                  
+cc    -c -o s0_podprogram.o s0_podprogram.c                  
+cc    -c -o s999.o s999.c     
+cc    -c -o s272333_podprogram.o s272333_podprogram.c        
+cc    -c -o s269560_podprogram.o s269560_podprogram.c        
+cc    -c -o s272343_podprogram.o s272343_podprogram.c        
+cc    -c -o s272335_podprogram.o s272335_podprogram.c        
+cc    -c -o s272348_podprogram.o s272348_podprogram.c        
+cc    -c -o s272336_podprogram.o s272336_podprogram.c        
+cc    -c -o s272330_podprogram.o s272330_podprogram.c        
+cc    -c -o s268495_podprogram.o s268495_podprogram.c        
+cc    -c -o s272332_podprogram.o s272332_podprogram.c        
+cc    -c -o s268952_podprogram.o s268952_podprogram.c        
+cc    -c -o s272345_podprogram.o s272345_podprogram.c        
+cc    -c -o s268896_podprogram.o s268896_podprogram.c        
+cc    -c -o s268492_podprogram.o s268492_podprogram.c        
+cc    -c -o s268509_podprogram.o s268509_podprogram.c        
+cc    -c -o s272232_podprogram.o s272232_podprogram.c        
+cc    -c -o s268490_podprogram.o s268490_podprogram.c        
+cc    -c -o s272334_podprogram.o s272334_podprogram.c        
+cc    -c -o s272338_podprogram.o s272338_podprogram.c        
+cc    -c -o s268488_podprogram.o s268488_podprogram.c        
+cc    -c -o s268494_podprogram.o s268494_podprogram.c        
+cc -o program main.o program_usage.o s0_podprogram.o s999.o s272333_podprogram.o s269560_podprogram.o s272343_podprogram.o s272335_podprogram.o s272348_podprogram.o s272336_podprogram.o s272330_podprogram.o s268495_podprogram.o s272332_podprogram.o s268952_podprogram.o s272345_podprogram.o s268896_podprogram.o s268492_podprogram.o s268509_podprogram.o s272232_podprogram.o s268490_podprogram.o s272334_podprogram.o s272338_podprogram.o s268488_podprogram.o s268494_podprogram.o -lm         
+weronika@wera-VirtualBox:~/Pulpit/a/TEST/24-25-1-p-1$ ./program 268494                                                     
+Weronika Chmiela 268494       
+Program sprawdza, czy podano mu liczbe 5                     
+
+Prosze podać liczbe 5:555     
+Podano dużo 5                 
+weronika@wera-VirtualBox:~/Pulpit/a/TEST/24-25-1-p-1$ make clean                                                           
+rm *.o program                
+weronika@wera-VirtualBox:~/Pulpit/a/TEST/24-25-1-p-1$ git checkout s268494                                                 
+Uwaga: przełączanie na „s268494”.                            
+
+Jesteś w stanie „odłączonego HEAD”. Możesz się rozglądać, tworzyć                                                          
+eksperymentalne zmiany i je składać, i możesz odrzucić wszystkie zapisy,                                                   
+które złożysz w tym stanie, bez wpływu na żadną gałąź, przełączając z powrotem na jakąś gałąź.                             
+
+Jeśli chcesz utworzyć nową gałąź, która zachowa zapisy, które złożysz,                                                     
+możesz to zrobić (teraz lub później) używając -c w ponownym poleceniu przełączenia.                                        
+Przykład:                     
+
+  git switch -c <nazwa-nowej-gałęzi>                         
+
+Lub cofnąć tę operację przez: 
+
+  git switch -                
+
+Wyłącz tę poradę ustawiając zmienną konfiguracji advice.detachedHead na false                                              
+
+HEAD wskazuje teraz na ae1217a Zmieniono pliki w branchu     
+weronika@wera-VirtualBox:~/Pulpit/a/TEST/24-25-1-p-1$ git show s268494                                                     
+tag s268494                   
+Tagger: Weronika <268494@student.pwr.edu.pl>                 
+Date:   Fri Dec 6 05:57:40 2024 +0100                        
+
+wersja dla 268494             
+
+commit ae1217a12f55815563a2003ca1be349eca6218d9 (HEAD, tag: s268494, origin/master, origin/HEAD, origin/268494br, master)  
+Author: Weronika <268494@student.pwr.edu.pl>                 
+Date:   Fri Dec 6 05:49:25 2024 +0100                        
+
+    Zmieniono pliki w branchu 
+
+diff --git a/main.c b/main.c  
+index d4d8125..87d5e8b 100644 
+--- a/main.c                  
++++ b/main.c                  
+@@ -76,6 +76,9 @@ int main(int argc, char *argv[])           
+       case 268488:           
+        s268488_podprogram(); 
+        break;                
++      case 268494:           
++       s268494_podprogram(); 
++       break;                                               
+       default:               
+        printf("\nStudent o numerze indeksu %d nie wykonał jeszcze zadania\n\n",idx);                                      
+       break;                 
+diff --git a/makefile b/makefile                             
+index 31ed577..2d819c9 100644 
+--- a/makefile                
++++ b/makefile                
+@@ -19,7 +19,8 @@ objects = main.o program_usage.o \         
+                  s268490_podprogram.o \                     
+                  s272334_podprogram.o \                     
+                  s272338_podprogram.o \                     
+-                 s268488_podprogram.o                       
++                 s268488_podprogram.o \                     
++                 s268494_podprogram.o                       
+                              
+ program : $(objects)         
+        cc -o program $(objects) -lm                         
+@@ -69,6 +70,8 @@ s268488_podprogram.o : program.h           
+                              
+ s272338_podprogram.0: program.h                             
+                              
++s268494_podprogram.o : program.h                            
++                             
+ .PHONY : clean               
+                              
+ clean :                      
+diff --git a/program.h b/program.h                           
+index 6cd305b..2ff8a53 100644 
+--- a/program.h               
++++ b/program.h               
+@@ -33,3 +33,4 @@ void s268490_podprogram(); /* funkcja studenta 268490 */                                                 
+ void s272334_podprogram(); /* funkcja studenta 272334 */    
+ void s272338_podprogram();   
+ void s268488_podprogram();   
++void s268494_podprogram();   
+diff --git a/s268494_podprogram.c b/s268494_podprogram.c     
+index e69de29..a9a7d38 100644 
+--- a/s268494_podprogram.c    
++++ b/s268494_podprogram.c    
+@@ -0,0 +1,41 @@              
++#include "program.h"         
++                             
++void s268494_podprogram()    
++{                            
++    printf("Weronika Chmiela 268494\n");                    
++                             
++    printf("Program sprawdza, czy podano mu liczbe 5\n\n"); 
++                             
++    printf("Prosze podać liczbe 5:");                       
++    int x;                   
++    scanf("%d", &x);         
++                             
++    if(x == 5){              
++        printf("Podano 5 \n");                              
++    }                        
++    else {                   
++        int n=x;    //do zachowania orginalnej wartosc      
++        int m;               
++        int i=0;             
++        //badamy kazda cyfre liczby                         
++        while(n != 0){       
++            m = n%10;        
++            if(m == 5){      
++                i = (i+5)*10;   //odtwaraza liczbe          
++            }                
++                             
++            n = (n-m)/10;    
++        }                    
++        if(i==0){            
++            printf("Nie podano 5 \n");                      
++        }                    
++        else if(i == x*10){  
++            printf("Podano dużo 5 \n");                     
++        }                    
++        else{                
++            printf("Zawarto 5 \n");                         
++                             
++        }                    
++                             
++    }                        
++}                            
+weronika@wera-VirtualBox:~/Pulpit/a/TEST/24-25-1-p-1$ git log --all --graph --decorate                                     
+* commit ae1217a12f55815563a2003ca1be349eca6218d9 (HEAD, tag: s268494, origin/master, origin/HEAD, origin/268494br, master)
+| Author: Weronika <268494@student.pwr.edu.pl>               
+| Date:   Fri Dec 6 05:49:25 2024 +0100                      
+|                             
+|     Zmieniono pliki w branchu                              
+|                             
+* commit 337d797747e146a623bd0910a53629c475acb911            
+| Author: Weronika <268494@student.pwr.edu.pl>               
+| Date:   Fri Dec 6 05:46:55 2024 +0100                      
+|                             
+|     Dodano program sprawdzajcy podanie liczby 5            
+|                             
+* commit e94e476535c92166db54f24eadb10e1869530842            
+| Author: woycik <woks07@wp.pl>                              
+| Date:   Wed Dec 4 15:58:14 2024 +0100                      
+|                             
+|     Added 268488            
+|                             
+| * commit de74dbb743244284997b058cb6277eb016665abb (tag: s268511)                                                         
+|/  Author: Antlion931 <AlbertK931@protonmail.com>           
+|   Date:   Wed Dec 4 15:55:50 2024 +0100                    
+|                             
+|       rozwiązanie zadania przez studenta 268511            
+|                             
+| * commit 8e0038f933f0253dc1cfef9950d6464cf2b8e972 (tag: s268488)                                                         
+|/  Author: woycik <woks07@wp.pl>                            
+|   Date:   Wed Dec 4 15:41:26 2024 +0100                    
+|                             
+|       Added to my branch    
+|                             
+| * commit e9cb9d2cf9217bc51e859acb2fe12263b89e4be0 (origin/272337_br)                                                     
+|/  Author: Jackob <jackob@gmail.com>                        
+|   Date:   Wed Dec 4 13:17:26 2024 +0100                    
+|                             
+|       dodanie programu dla 272337                          
+|                             
+* commit c3b5763f09461041312f21f20e2973fa8ad53b86 (tag: s272337, tag: 272338)                                              
+| Author: junsevith <pawelstanik44@gmail.com>                
+| Date:   Tue Dec 3 17:16:39 2024 +0100                      
+|                             
+|     dodano funkcjonalność   
+|                             
+* commit 905ea6e056f9c7dfca82c1938916648f1f19dd7d (tag: v272232, origin/272232)                                            
+| Author: drzezga <19654689+drzezga@users.noreply.github.com>                                                              
+| Date:   Tue Dec 3 14:32:47 2024 +0100                      
+|                             
+|     272232                  
+|                             
+| * commit 69ce6fb9e95a68a19176942e5eb2afcf4ff3fc6c (tag: s272350)                                                         
+|/  Author: Maciej Binczarowski <maciej.binczarowski@gmail.com>                                                            
+|   Date:   Tue Dec 3 13:23:27 2024 +0100                    
+|                             
+|       Dodanie pliku s272350.c oraz aktualizacja Makefile.  
+|                             
+* commit 8adfea9fcc7a1618fac06143f31ec07abecdd871 (tag: s272334, origin/272334)                                            
+| Author: Bartłomiej Sitnik <brtkstnk@gmail.com>             
+| Date:   Mon Dec 2 22:47:41 2024 +0100                      
+|                             
+|     Dodanie rozwiązania przez studenta 272334              
+|                             
+* commit 64a384a8b9fdd4486c698f5bf0b2ce1713c3b847 (tag: s268490)                                                           
+| Author: Moztanku <Mostankpl@gmail.com>                     
+| Date:   Mon Dec 2 20:29:42 2024 +0100                      
+|                             
+|     Dołączenie programu do main.c                          
+|                             
+* commit 0be246823f763a6d04587214bd62790b13051473            
+| Author: Moztanku <Mostankpl@gmail.com>                     
+| Date:   Mon Dec 2 20:26:32 2024 +0100                      
+|                             
+|     Add source file         
+|                             
+* commit a4cc9437e889badd5a9b1b7e0580fba12c66a5ce (tag: s268509)                                                           
+| Author: Wiktoria Szcześniak <268509@student.pwr.edu.pl>    
+| Date:   Mon Dec 2 20:17:00 2024 +0100                      
+|                             
+|     Dodano podprogram studenta 268509                      
+|                             
+*   commit ab05981a145b57f6fe6a3bb7ed765b8119ecf512 (tag: v_268492)                                                        
+|\  Merge: 1e365e6 56345a3    
+| | Author: Krzysztof Antoni Wiśniewski <krzymado@gmail.com> 
+| | Date:   Mon Dec 2 19:51:01 2024 +0100                    
+| |                           
+| |     resolved conflict     
+| |                           
+| * commit 56345a32612ebdacab1789f129e3cb356c24abd8 (origin/s268492)                                                       
+| | Author: Krzysztof Antoni Wiśniewski <krzymado@gmail.com> 
+| | Date:   Mon Dec 2 19:39:11 2024 +0100                    
+| |                           
+| |     Added podprogram for student 268492. Added 268495 to .h                                                            
+| |                           
+* | commit 1e365e62b8f0b22066f54c72d67bb0db88c62287 (tag: v_272345_poprawiony, tag: v_272345, origin/272345)               
+|/  Author: StanisławTomkowiak <272345@student.pwr.edu.pl>   
+|   Date:   Mon Dec 2 19:02:22 2024 +0100                    
+|                             
+|       commitowanie          
+|                             
+* commit be71902feeb6a61ed671570834348cb2712b5ce0 (tag: s272332, origin/branch-272332)                                     
+| Author: Michal Jankowski <michal.jankowski@groupone.com.pl>                                                              
+| Date:   Mon Dec 2 16:34:20 2024 +0100                      
+|                             
+|     272332: Dodanie zmian studenta                         
+|                             
+* commit 4ae3b0fde51a052e46c1a661f498997a09ee05b0 (tag: 268896, origin/task_268896)                                        
+| Author: 268896 <268896@student.pwr.edu.pl>                 
+| Date:   Mon Dec 2 00:49:50 2024 +0100                      
+|                             
+|     Branch studenta 268896  
+|                             
+* commit 8cc32ea828d80254db00fdbffdc9b58c7a9ee558 (tag: v1.0-student-268952, origin/student-268952)                        
+| Author: 268952 <misha@DESKTOP-TFC96UP.>                    
+| Date:   Sat Nov 30 18:35:37 2024 +0100                     
+|                             
+|     268952 part             
+|                             
+* commit 1ef9ed6591e879bba3e314f098ca152ef99f55a2 (tag: s268495, origin/branch-268495)                                     
+| Author: Damian Choptiany <damian.choptiany@gmail.com>      
+| Date:   Sat Nov 30 13:28:25 2024 +0100                     
+|                             
+|     Student 268495 dostosowal makefile i main.c            
+|                             
+* commit 1ad4b7d30a5e71b56162d087411d5ef5c1ffcb46            
+| Author: Damian Choptiany <damian.choptiany@gmail.com>      
+| Date:   Sat Nov 30 13:25:05 2024 +0100                     
+|                             
+|     Student 268495 dodaje plik s268495_podprogram.c        
+|                             
+* commit 643d6bf92d3bd1a6f9bb0c96d064af7bca24e170 (tag: 272330)                                                            
+| Author: romek <272330@student.pwr.edu.pl>                  
+| Date:   Sat Nov 30 11:46:10 2024 +0100                     
+|                             
+|     add: studenciak o id 272330                            
+|                             
+* commit fa9f618f358a5d8d91125cd6601542d7eb1eea44 (tag: 272336, origin/272336)                                             
+| Author: emo-mruczek <krokcia1@gmail.com>                   
+| Date:   Tue Nov 26 21:29:16 2024 +0100                     
+|                             
+|     add: 272336             
+|                             
+* commit 4f345f0e0abf1b990cc40ce1b9858afe40a7b424 (tag: v272348)                                                           
+| Author: PiotrHernik <piotr.hernik13@gmail.com>             
+| Date:   Tue Nov 26 11:49:32 2024 +0100                     
+|                             
+|     Adding program made by student 272348                  
+|                             
+* commit 46fd6b243031e5eca383e208fb13eaaf2d508057 (tag: v_272335_2)                                                        
+| Author: pavlo <seredoha.nets@gmail.com>                    
+| Date:   Sun Nov 24 18:49:23 2024 +0100                     
+|                             
+|     Adding everything again 
+|                             
+* commit 59b044ea69d5ee15e30eaba469ba37b7116437f8            
+| Author: pavlo <seredoha.nets@gmail.com>                    
+| Date:   Sun Nov 24 18:48:25 2024 +0100                     
+|                             
+|     Clear everything        
+|                             
+* commit e75e24b279b45c7fd097cd713445d6ee54352aa9 (tag: v_272335)                                                          
+| Author: pavlo <seredoha.nets@gmail.com>                    
+| Date:   Sun Nov 24 18:38:20 2024 +0100                     
+|                             
+|     Adding a feature        
+|                             
+* commit 384d572d6bd4f5ab638cb1046d4c0a060b5300d1 (tag: v_272343, origin/s272343)                                          
+| Author: BajtekRogue <barteklabuz2003@gmail.com>            
+| Date:   Sun Nov 24 16:57:07 2024 +0100                     
+|                             
+|     272343 dodaje swój podprogram                          
+| Author: BajtekRogue <barteklabuz2003@gmail.com>            
+| Date:   Sun Nov 24 16:57:07 2024 +0100                     
+|                             
+|     272343 dodaje swój podprogram                          
+|                             
+* commit a4d0e9cb2849b808a63b7084f37a0cc9eef808c0 (tag: s269560)                                                           
+| Author: Mariia Hnatiuk <269560@student.pwr.edu.pl>         
+| Date:   Tue Nov 19 20:53:38 2024 +0100                     
+|                             
+|     Student 269560 wprowadza swoje zmiany                  
+|                             
+* commit 029856a7bd6da996164b18e1203b2bd01c5ab3c8 (tag: s272333)                                                           
+| Author: Reicsen <reicsen@gmail.com>                        
+| Date:   Sat Nov 16 17:53:12 2024 +0100                     
+|                             
+|     Dodanie własnej funkcjonalności do projektu            
+|                             
+* commit fff7624ae83a5a362a07ca898ce45efd10c875f2 (tag: s999)
+| Author: Student Sztuczny 999 <999@nibyuczelnia>            
+| Date:   Mon Nov 10 14:30:55 2014 +0100                     
+|                             
+|     Student 999 wprowadza odpowiednie poprawki w makefile i pozostałych plikach źródłowych.                              
+|                             
+*   commit b495dd411d82d84c118cced42125d6fe0bd57769          
+|\  Merge: baf27db e0cac2e    
+| | Author: Student Sztuczny 999 <999@nibyuczelnia>          
+| | Date:   Mon Nov 10 13:59:02 2014 +0100                   
+| |                           
+| |     Merge branch 'master' into branch-999                
+| |                           
+| |     Student 999 dokonał synchronizacji swojej gałęzi ze zmianami dokonanymi przez admina w origin/master.              
+| |     Polecenia:            
+| |       git checkout master 
+| |       git pull            
+| |       git checkout branch-999                            
+| |       git merge master    
+| |                           
+| * commit e0cac2e9636ab179b95340d4f19c1b1ed4234c76          
+| | Author: admin <Marcin.Kik@pwr.edu.pl>                    
+| | Date:   Mon Nov 10 13:54:58 2014 +0100                   
+| |                           
+| |     admin wprowadza poprawki w pliku makefile.           
+| |                           
+* | commit baf27dba822c9b17c97baddf3bf5324811b24860          
+|/  Author: Student Sztuczny 999 <999@nibyuczelnia>          
+|   Date:   Mon Nov 10 13:45:43 2014 +0100                   
+|                             
+|       Student 999 tworzy swoją gałąź i przełącza się na nią,                                                             
+|       wykonując  polecenia: 
+|                             
+|         git branch branch-999                              
+|         git checkout branch-999                            
+|                             
+|       Student 999 dodaje plik s999.c z podprogramem, ale jeszcze nie                                                     
+|       uwzględnił go w makefile i pozostałych plikach źródłowych.                                                         
+|                             
+* commit 871c4727e2370ff70fbff9878c222e33ba5e2b4f            
+| Author: admin <Marcin.Kik@pwr.edu.pl>                      
+| Date:   Mon Nov 10 12:53:38 2014 +0100                     
+|                             
+|         admin wprowadza trochę poprawek do organizacji projektu:                                                         
+|                             
+|         - dodany został plik: makefile -- teraz program kompiluje się poleceniem make                                    
+|         - dodany został szablonowy przykład podprogramu -- pilk: s0_podprogram.c                                         
+|                             
+* commit 2ccbb68c9bfb88a15caf7884ec3877837bc4be79            
+  Author: admin <Marcin.Kik@pwr.edu.pl>                      
+  Date:   Mon Nov 10 12:36:14 2014 +0100                     
+                              
+      admin tworzy pliki z wstępną wersją projektu           
+weronika@wera-VirtualBox:~/Pulpit/a/TEST/24-25-1-p-1$ cd ..  
+weronika@wera-VirtualBox:~/Pulpit/a/TEST$ tmux capture-pane -p -S'-' -E'-' -J >> l4z1                                      
+
