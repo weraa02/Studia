@@ -1,0 +1,154 @@
+wget http://ppa.launchpad.net/gns3/ppa/ubuntu/pool/main/d/dynamips/dynamips_0.2.21-1~eoan1_i386.db
+
+	ROUTERS: (c7200)
+ R5
+configure terminal
+interface FastEthernet 0/0
+ip address dhcp
+ip nat outside
+no shutdown
+end
+
+//to check if ok (do siebie):
+ping 192.168.122.113
+
+//uzywaj odpowiedni dns
+configure terminal
+ip domain-lookup
+ip name-server 8.8.8.8
+end
+
+//(na zewnatrz)
+ping google.com
+
+configure terminal
+interface FastEthernet 1/0
+ip address 192.168.3.3 255.255.255.0
+ip nat inside
+no shutdown
+end
+
+configure terminal
+router rip
+version 2
+no auto-summary
+network 192.168.0.0
+network 192.168.3.0
+default-information originate
+end
+
+configure terminal
+access-list 10 permit 192.168.1.0 0.0.254.255
+access-list 10 permit 192.168.2.0 0.0.253.255
+access-list 10 permit 192.168.3.0 0.0.252.255
+access-list 10 permit 192.168.4.0 0.0.251.255
+ip nat inside source list 10 interface f0/0 overload
+end
+
+write
+
+ R6
+conf t
+int fa2/0
+no shut
+ip address 192.168.3.1 255.255.255.0
+end
+
+conf t
+ip domain-lookup source-interface fa2/0
+ip name-server 8.8.8.8
+end
+
+//dolne
+conf t
+int fa0/0
+no shut
+ip address 192.168.1.1 255.255.255.0
+end
+
+//prawe
+conf t
+int fa1/0
+no shut
+ip address 192.168.4.1 255.255.255.0
+end
+
+conf t
+router rip
+version 2
+no auto-summary
+network 192.168.3.0
+network 192.168.1.0
+network 192.168.4.0
+end
+
+wr
+
+ping 192.168.122.113
+ping 192.168.3.1
+ping google.com
+
+ R2
+conf t
+int fa1/0
+ip address 192.168.4.2 255.255.255.0
+no shut
+end
+conf t
+int fa0/0
+ip address 192.168.2.2 255.255.255.0
+no shut
+end
+
+conf t
+ip domain-lookup
+ip name-server 8.8.8.8
+end
+
+conf t
+router rip
+version 2
+no auto-summary
+network 192.168.4.0
+network 192.168.2.0
+end
+
+wr
+
+ R3
+conf t
+int fa0/0
+ip address 192.168.2.3 255.255.255.0
+no shut
+end
+
+conf t
+router rip
+version 2
+no auto-summary
+network 192.168.2.0
+end
+
+conf t
+ip domain-lookup
+ip name-server 192.168.0.1
+end
+wr
+
+	VPCS:
+ PC1
+ip 192.168.1.2/24 192.168.1.1  
+ip dns: 8.8.8.8
+write
+
+ PC2
+ip 192.168.2.5/24 192.168.2.2
+ip dns: 8.8.8.8
+write
+
+ PC3
+ip 192.168.2.4/24 192.168.2.2
+ip dns: 8.8.8.8
+write
+
+
