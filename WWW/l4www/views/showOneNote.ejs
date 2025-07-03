@@ -1,0 +1,96 @@
+<!DOCTYPE html> 	
+<html lang = "en">
+    <head> <!-- metadane -->
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--do responsywnych--> <!--kodowanie zgodnie z szerokoscia strony-->
+        <!--<link href="./style.css" rel="stylesheet" type="text/css">  -->
+        <title> Get note </title>  <!-- nazwa na karcie w wyszukiwarce -->
+        <style>
+            body {
+                font-family: "Courier New", Courier, monospace;
+                margin: 0;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+        
+            h1 {
+                margin-top: 0;
+            }
+        
+            a {
+                text-decoration: underline;
+                color: #4CAF50;
+            }
+
+            p {
+                margin: 0;
+            }
+
+            form {
+                margin-bottom: 20px;
+            }
+
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+        
+            input[type="text"], 
+            textarea {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+            }
+
+            button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+
+            }
+
+            button:hover {
+                background-color: #45a049;
+            }
+        
+            @media screen and (min-width: 600px) {
+                body {
+                    padding: 40px;
+                }
+            
+                form {
+                    max-width: 400px;
+                    margin: 0 auto;
+                }
+                button {
+                    margin-top: 10px;
+                }
+            }
+          </style>
+    </head>
+    <body>
+        <h1>/GET/:id - for showing choosen notes </h1>
+        <a href="/">Main page</a>
+        <% if (note.length === 0) { %>
+            <p>No notes available.</p>
+        <% } else { %>
+            <form action="/note/<%= note._id %>?_method=PUT" method="POST"> <!-- Form for editing the note -->
+                <label for="title">Title:</label>
+                <input type="text" name="title" id="title" value="<%= note.title %>">
+                <br>
+                <label for="content">Content:</label>
+                <textarea name="content" id="content" rows="4"><%= note.content %></textarea>
+                <br>
+                <button type="submit">Save editing</button>
+            </form>    
+            <form action="/note/<%= note._id %>?_method=DELETE" method="POST">
+                <button type="submit">Delete</button>
+            </form> 
+        <% } %>
+    </body>
+</html>

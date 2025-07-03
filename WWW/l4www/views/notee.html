@@ -1,0 +1,26 @@
+<!DOCTYPE html> 	
+<html lang = "en">
+    <head> <!-- metadane -->
+		<meta charset="utf-8">
+		<title> Notes - web app </title>  <!-- nazwa na karcie w wyszukiwarce -->
+        <link href="./style.css" rel="stylesheet" type="text/css">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--do responsywnych--> <!--kodowanie zgodnie z szerokoscia strony-->
+    </head>
+    <body>
+        <div>
+            <form action="/note" method="get">
+                <h1>Web app for notes</h1>
+                <h2>/GET - for showing notes</h2>
+                <input type="submit" id="getAllNote" name="submitAll" value="Show all" /><br>
+            </form>
+        </div>
+        <div>
+            <form action="/note" method="post">
+                <h3>/POST - for adding new notes</h3>
+                <input type="text" name="title" id="titleNewNote" placeholder="Title" required /><br>
+                <input type="text" name="content" id="contentNewNote" placeholder="Content" /><br>
+                <br><input type="submit" id="submitNewNote" name="submit" value="Submit" /><br>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html> 	
+<html lang = "en">
+    <head> <!-- metadane -->
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--do responsywnych--> <!--kodowanie zgodnie z szerokoscia strony-->
+        <link href="./style.css" rel="stylesheet" type="text/css">  
+        <title> Get (all) notes </title>  <!-- nazwa na karcie w wyszukiwarce -->
+    </head>
+    <body>
+        <h1>/GET - for showing all notes </h1>
+        <a href="/"> Back to main page</a>
+        <% if (notes.length === 0) { %>
+            <p>No notes available.</p>
+        <% } else { %>
+            <ul>
+                <% notes.forEach(function(note) { %>
+                    <li>
+                        <h3>Title: <%= note.title %></h3>
+                        <p>(ID: <%= note._id %>)</p>
+                        <!--<a href="/note/<%= note._id %>">(ID: <%= note._id %>)</a>-->
+                        <p>Content: <%= note.content %></p>
+                        
+
+                        <form action="/note/<%= note._id %>" method="GET">
+                            <button type="submit">Open</button>
+                        </form>
+                        <form action="/note/<%= note._id %>?_method=DELETE" method="POST">
+                            <button type="submit">Delete</button>
+                        </form>
+                    </li>
+                <% }); %>
+            </ul>
+        <% } %>
+    </body>
+</html>

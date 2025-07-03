@@ -1,0 +1,25 @@
+{
+  "name": "l4www",
+  "version": "1.0.0",
+  "description": "apka na kurs www z node.js i mongo.db o notatnikach",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Weronika Chmiela",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.1.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "l4www": "file:",
+    "method-override": "^3.0.0",
+    "module": "^1.2.5",
+    "mongoose": "^7.2.2"
+  }
+}
